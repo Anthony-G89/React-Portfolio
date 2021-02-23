@@ -20,8 +20,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    width: 90%;
-    min-height: 8vh;
+    width: 85%;
+    min-height: 10vh;
 }
 
 .logo {
@@ -45,3 +45,10 @@ nav a {
 }
 
 
+/* Media Queries */
+
+@media screen and (max-width:1030px) {
+    nav ul {
+        width: 50%;
+    }
+}
