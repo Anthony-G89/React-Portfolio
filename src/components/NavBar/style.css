@@ -42,6 +42,13 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: black;
+    letter-spacing: 2px;
+}
+
+nav a:hover  {
+    color: #ED213A;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 

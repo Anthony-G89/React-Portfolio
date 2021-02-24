@@ -9,12 +9,13 @@ function LandingPage() {
         <div>
             <section className="home">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="squareBackground"></div>
+                    <div className="col-lg-6 pictureAndName">
                         <img src={pictureOFMe} className=" imgOfMe" alt="Image of me" />
-                        <h3 className="">Hello! My name is <br /><span className="name">Anthony Guerrero</span></h3>
+                        <h3 className="introParagraph">Hello! My name is <br /><span className="name">Anthony Guerrero</span></h3>
                     </div>
-                    <div className="col-lg-6">
-                        <h2>I'm a front-end developer who codes with React.js</h2>
+                    <div className="col-lg-6 myTitleContainer">
+                        <h2 className="myTitle">I'm a Full Stack Developer 💻</h2>
                     </div>
                 </div>
             </section>
