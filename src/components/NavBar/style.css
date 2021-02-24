@@ -9,10 +9,10 @@
 
 header {
     box-shadow: 2px 15px 20px;
-    position: fixed;
-    top: 0;
+    /* position: fixed;
+    top: 0; */
+    /* z-index: 3; */
     width: 100%;
-    z-index: 3;
     background: rgb(188,188,189);
     background: linear-gradient(90deg, rgba(188,188,189,1) 0%, rgba(255,255,255,1) 30%, rgba(248,248,248,1) 73%, rgba(188,188,189,1) 85%);
 }
