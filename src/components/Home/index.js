@@ -15,7 +15,7 @@ function LandingPage() {
                         <h3 className="introParagraph">Hello! My name is <br /><span className="name">Anthony Guerrero</span></h3>
                     </div>
                     <div className="col-lg-6 myTitleContainer">
-                        <h2 className="myTitle">I'm a Full Stack Developer 💻</h2>
+                        <h2 className="myTitle">I'm a <span className="workTitle">Full Stack Developer</span>, who builds interactive websites that run across platforms & devices</h2>
                     </div>
                 </div>
             </section>

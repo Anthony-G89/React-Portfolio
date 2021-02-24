@@ -8,7 +8,7 @@ section {
     min-height: 100vh;
     padding: 20px;
     position: relative;
-    top: 3.3rem;
+    top: 8rem;
     z-index: 1;
     /* clip-path: polygon(0 0, 100% 0%, 100% 81%, 0 100%); */
 }
@@ -17,20 +17,25 @@ section {
     background: rgb(0,0,0);
     background: linear-gradient(145deg, rgba(0,0,0,1) 0%, rgba(236,236,238,1) 32%, rgba(236,236,238,1) 70%, rgba(0,0,0,1) 100%);
     position: absolute;
-    left: 6rem;
+    left: 3rem;
     z-index: -1;
-    width: 90%;
-    height: 60%;
+    width: 95%;
+    height: 100vh;
     min-height: 760px;
     display: flex;
-    min-width: 800px;
+    min-width: 350px;
     border-radius: 40px;
     
 }
 
+/* .row {
+    align-items: baseline;
+} */
+
 .name{
     font-size: 3rem;
     font-family: 'Akaya Kanadaka', cursive;
+    font-weight: bolder;
     position: relative;
     background: #ED213A;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
@@ -63,8 +68,45 @@ section {
 
 .myTitleContainer {
     position: relative;
-    top: 15rem;
+    top: 19rem;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     letter-spacing: 1px;
+}
+
+.myTitle {
+    min-width: 350px;
+    max-width: 600px;
+    font-size: 2.3rem;
+}
+
+.workTitle {
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+    font-weight: bolder;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:989px) {
+    .myTitleContainer {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 152px;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width:710px) {
+    .squareBackground {
+       left: 17px;
+    }
 }

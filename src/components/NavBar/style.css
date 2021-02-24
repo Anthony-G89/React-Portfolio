@@ -9,8 +9,10 @@
 
 header {
     box-shadow: 2px 15px 20px;
-    position: sticky;
+    position: fixed;
     top: 0;
+    width: 100%;
+    z-index: 3;
     background: rgb(188,188,189);
     background: linear-gradient(90deg, rgba(188,188,189,1) 0%, rgba(255,255,255,1) 30%, rgba(248,248,248,1) 73%, rgba(188,188,189,1) 85%);
 }
@@ -54,8 +56,15 @@ nav a:hover  {
 
 /* Media Queries */
 
-@media screen and (max-width:1030px) {
+@media screen and (max-width:1060px) {
+    nav ul {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:850px) {
     nav ul {
         width: 50%;
     }
 }
+
