@@ -9,14 +9,14 @@ var workBtn = document.querySelector(".workBtn");
 var arrowBtn = document.querySelector(".arrowBtn");
 
 
-workBtn.addEventListener("mouseenter", e => {
-   arrowBtn.style.transform = "rotate(90deg)"
-});
+// workBtn.addEventListener("mouseenter", e => {
+//    arrowBtn.style.transform = "rotate(90deg)"
+// });
 
 
-workBtn.addEventListener("mouseleave", e => {
-    arrowBtn.style.transform = "rotate(0deg)"
- });
+// workBtn.addEventListener("mouseleave", e => {
+//     arrowBtn.style.transform = "rotate(0deg)"
+//  });
  
 
 
@@ -30,6 +30,7 @@ function LandingPage() {
                     <div className="squareBackground"></div>
                     <div className="col-lg-6 pictureAndName">
                         <img src={pictureOFMe} className=" imgOfMe" alt="Image of me" />
+                        {/* <span className="mee">HELLO</span> */}
                         <h3 className="introParagraph">Hello! My name is <br /><span className="name">Anthony Guerrero</span></h3>
                     </div>
                     <div className="col-lg-6 myTitleContainer">

@@ -55,6 +55,8 @@ section {
     box-shadow: 13px 17px 19px rgba(0,0,0,0.8)
 }
 
+
+
 .pictureAndName {
     position: relative;
     top: 5rem;
@@ -139,5 +141,34 @@ section {
 @media screen and (max-width:710px) {
     .squareBackground {
        left: 17px;
+    }
+}
+
+@media screen and (max-width:665px) {
+    .imgOfMe {
+        height: 266px;
+        width: 212px;
+        position: relative;
+        bottom: 58px;
+    }
+    .introParagraph {
+        top: -30px;
+        transform: translate(10px, 10px);
+    }
+    .introParagraph {
+        top: -30px;
+        transform: translate(10px, 10px);
+    }
+    .myTitle {
+        font-size: 30px;
+        position: relative;
+        left: 80px;
+        bottom: 70px;
+        transform: translate(-78px, 2px);
+        max-width: 350px;
+    }
+    .workBtn {
+        position: absolute;
+        top: 9rem;
     }
 }
