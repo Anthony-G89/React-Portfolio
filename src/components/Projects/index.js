@@ -5,9 +5,11 @@ import "./style.css";
 function projects() {
     return (
         <div>
+            <span id="project">
             <section className="projects">
-                <h1>Projects</h1>
+                <h1 className="projectTitle">Projects</h1>
             </section>
+            </span>
         </div>
     )
 };

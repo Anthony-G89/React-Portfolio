@@ -1,6 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 .projects {
     min-height: 100vh;
     /* background: rgb(236,236,238);
 background: linear-gradient(145deg, rgba(236,236,238,1) 0%, rgba(47,46,46,1) 50%, rgba(47,46,46,1) 52%, rgba(236,236,238,1) 100%); */
 
+}
+
+.projectTitle {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 14rem;
+    font-family: 'Anton', sans-serif;
+    font-size: 4rem;
+}
+
+.projectTitle::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: -27px;
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 3px;
+    width: 21rem;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width:1536px) {
+    body {
+      overflow-x: hidden;
+    }
 }

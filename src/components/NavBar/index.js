@@ -11,7 +11,7 @@ function NavBar () {
                 <nav>
                     <h1 className="logo">A.G.</h1>
                     <ul className="nav-links">
-                        <li><a href="#">Work</a></li>
+                        <li><a href="#project">Projects</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Connect</a></li>
                     </ul>

@@ -17,7 +17,7 @@ var arrowBtn = document.querySelector(".arrowBtn");
 // workBtn.addEventListener("mouseleave", e => {
 //     arrowBtn.style.transform = "rotate(0deg)"
 //  });
- 
+
 
 
 
@@ -35,7 +35,7 @@ function LandingPage() {
                     </div>
                     <div className="col-lg-6 myTitleContainer">
                         <h2 className="myTitle">I'm a <span className="workTitle">Full Stack Developer</span>, who builds interactive websites that run across platforms & devices</h2>
-                        <button className="workBtn">View my work <img className="arrowBtn" src="https://img.icons8.com/windows/32/000000/arrow.png"/></button>
+                        <button className="workBtn">View my work <img className="arrowBtn" src="https://img.icons8.com/windows/32/000000/arrow.png" /></button>
                     </div>
                 </div>
             </section>
