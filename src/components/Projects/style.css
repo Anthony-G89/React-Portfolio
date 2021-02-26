@@ -39,6 +39,23 @@ background: linear-gradient(145deg, rgba(236,236,238,1) 0%, rgba(47,46,46,1) 50%
 li {
     list-style: none;
     display: inline-block;
+
+    /* work here */
+}
+.anchor {
+    position: relative;
+    display: inline-block;
+    
+}
+
+p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    top: 3rem;
+    color: red;
+    font-size: 22px;
 }
 
 .projectImage {
@@ -49,9 +66,7 @@ li {
     border-radius: 10px;
     box-shadow: 10px 14px 20px rgba(0, 0, 0, 0.7), 14px 15px 18px rgba(0, 0, 0, 0.7);
 }
-p {
-    position: absolute;
-}
+
 
 
 

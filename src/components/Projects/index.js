@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import "./style.css";
@@ -16,9 +17,10 @@ function projects() {
                     <h1 className="projectTitle">Projects</h1>
                     <ul className="projectContainer">
                         <li>
-                            <a href="#">
-                                <img className="projectImage" src={MovieSearch} alt="Image of Movie Search" />
+                            {/* WORK HERE! */}
+                            <a href="#" className="anchor">
                                 <p>Local Wire</p>
+                                <img className="projectImage" src={MovieSearch} alt="Image of Movie Search" />
                             </a>
                         </li>
                         <li><a href="#"><img className="projectImage" src={LocalWire} alt="Image of Local Wire" /></a></li>
