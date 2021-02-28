@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .projects {
     min-height: 100vh;
@@ -29,11 +30,20 @@ background: linear-gradient(145deg, rgba(236,236,238,1) 0%, rgba(47,46,46,1) 50%
     width: 21rem;
 }
 
+.pTag {
+ position: absolute; 
+ display: block;
+ width: 98%;
+ font-size: 22px;
+ top: 25rem;  
+ font-family: 'Poppins', sans-serif;
+}
+
 .projectContainer {
     position: absolute;
     top: 30rem;
     width: 100%;
-    transform: translate(10px, 10px);
+    transform: translate(-10px, 10px);
     text-align: center;
 
 }
@@ -55,16 +65,39 @@ li {
     width: 100%;
     text-align: center;
     z-index: 1;
-    top: 6rem;
+    top: 4rem;
     /* color: #ED213A;  
     color: -webkit-linear-gradient(to right, #93291E, #ED213A);  
     color: linear-gradient(to right, #93291E, #ED213A);  */
-    color: #e8e8e8;
+    /* color: #e82222; */
+    color: white;
     font-weight: bolder;
-    font-size: 24px;
+    font-size: 27px;
     font-family: 'Fjalla One', sans-serif;
     text-decoration: underline; 
     cursor: not-allowed;
+    filter: drop-shadow(2px 4px 6px black);
+    text-transform: uppercase;
+}
+
+.learnMoreBtn {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 60px;
+    top: 11rem;
+    min-width: 125px;
+    max-width: 302px;
+    padding: 2px 32px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background: #ED213A;  
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A); 
+    background: linear-gradient(to right, #93291E, #ED213A);
+    color: rgb(255, 255, 255); 
+    box-shadow: 6px 7px 12px rgba(0, 0, 0, 0.7);
 }
 
 .projectImage {
@@ -80,8 +113,9 @@ li {
 
 .projectImage:hover {
     filter: grayscale(0%);    
-    transform: translate(0px, -10px);
+    /* transform: translate(0px, -10px); */
 }
+
 
 
 

@@ -10,22 +10,9 @@ import MovieSearch from "../../images/movie-search-app.png";
 import CodeQuiz from "../../images/code-quiz-home.png";
 
 
-function ChangeColor() {
-    const appTitle = document.querySelector(".applicationTitle");
-    appTitle.style.color = "#ED213A";
-    
-}
 
-function changeColorBack() {
-    const appTitle = document.querySelector(".applicationTitle");
-    appTitle.style.color = "#e8e8e8";
-    
-}
 
 // FIXES OTHER TITLES NOT TURNING RED WHEN HOVERING OVER IMAGES
-
-
-
 
 
 
@@ -35,47 +22,54 @@ function projects() {
             <span id="project">
                 <section className="projects">
                     <h1 className="projectTitle">Projects</h1>
+                    <p className="pTag">These are some of the work I have done</p>
                     <ul className="projectContainer">
                         <li>
                             {/* WORK HERE! */}
                             <a href="#" className="anchor" >
                                 <p className="applicationTitle">Movie Search</p>
-                                <img className="projectImage" onMouseEnter={ChangeColor} onMouseLeave={changeColorBack} src={MovieSearch} alt="Image of Movie Search" />
-                            </a>
-                        </li>
-
-                        <li >
-                            <a href="#" className="anchor">
-                                <p className="applicationTitle">Local Wire</p>
-                                <img className="projectImage"  onMouseEnter={ChangeColor} onMouseLeave={changeColorBack} src={LocalWire} alt="Image of Local Wire" />
+                                <button className="learnMoreBtn">Learn More</button>
+                                <img className="projectImage" src={MovieSearch} alt="Image of Movie Search" />
                             </a>
                         </li>
 
                         <li>
                             <a href="#" className="anchor">
                                 <p className="applicationTitle">Local Wire</p>
-                                <img className="projectImage"  onMouseEnter={ChangeColor} onMouseLeave={changeColorBack} src={WeatherD} alt="Image of Weather Dashboard" />
+                                <button className="learnMoreBtn">Learn More</button>
+                                <img className="projectImage" src={LocalWire} alt="Image of Local Wire" />
                             </a>
                         </li>
 
                         <li>
                             <a href="#" className="anchor">
-                                <p className="applicationTitle">Local Wire</p>
-                                <img className="projectImage"  onMouseEnter={ChangeColor} onMouseLeave={changeColorBack} src={PasswordGen} alt="Image of Password Generator" />
+                                <p className="applicationTitle">Weather Dashboard</p>
+                                <button className="learnMoreBtn">Learn More</button>
+                                <img className="projectImage" src={WeatherD} alt="Image of Weather Dashboard" />
                             </a>
                         </li>
 
                         <li>
                             <a href="#" className="anchor">
-                                <p className="applicationTitle">Local Wire</p>
-                                <img className="projectImage"  onMouseEnter={ChangeColor} onMouseLeave={changeColorBack} src={EmployeeDirectory} alt="Image of Employee Directory " />
+                                <p className="applicationTitle">password Generator</p>
+                                <button className="learnMoreBtn">Learn More</button>
+                                <img className="projectImage" src={PasswordGen} alt="Image of Password Generator" />
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" className="anchor">
+                                <p className="applicationTitle">Employee Directory</p>
+                                <button className="learnMoreBtn">Learn More</button>
+                                <img className="projectImage" src={EmployeeDirectory} alt="Image of Employee Directory " />
                             </a>
                         </li>
 
                         <li>
                             <a href="#" className="anchor">
                                 <p className="applicationTitle">Code Quiz</p>
-                                <img className="projectImage"  onMouseEnter={ChangeColor} onMouseLeave={changeColorBack} src={CodeQuiz} alt="Image of Code Quiz" />
+                                <button className="learnMoreBtn">Learn More</button>
+                                <img className="projectImage" src={CodeQuiz} alt="Image of Code Quiz" />
                             </a>
                         </li>
 
