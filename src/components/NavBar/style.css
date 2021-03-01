@@ -27,7 +27,7 @@ nav {
     min-height: 10vh;
 }
 
-.whole-Nav-Bar {
+/* .whole-Nav-Bar {
     position: fixed;
     top: 0;
     right: -400px;
@@ -38,11 +38,11 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .hamburger-menu {
     position: fixed;
-    z-index: 2;
+    z-index: 5;
     top: 20px;
     right: 48px;
     width: 30px;

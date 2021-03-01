@@ -7,10 +7,10 @@ import './App.css';
 
 
 
-function App()  {
+class App extends React.Component {
+  
 
-  
-  
+  render() {
     return (
       <div className="applicationContainer">
         <NavBar />
@@ -18,7 +18,7 @@ function App()  {
         <Projects />
       </div>
     );
-  
+  }
 }
 
 export default App;
