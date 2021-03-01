@@ -14,19 +14,21 @@ import CodeQuiz from "../../images/code-quiz-home.png";
 
 // FIXES OTHER TITLES NOT TURNING RED WHEN HOVERING OVER IMAGES
 
-function ShowBtn() {
-    var liElm = document.querySelectorAll(".anchor")
-    var btn = document.querySelectorAll(".learnMoreBtn");
+// function ShowBtn() {
+//     var liElm = document.querySelector(".anchor")
+//     var btn = document.querySelector(".learnMoreBtn");
 
-    liElm.addEventListener("mouseenter", function() {
-        btn.style.display = "block"
-    });
-    
-}
+//     liElm.addEventListener("mouseenter", function() {
+//         btn.style.display = "block"
+//     });
+
+// }
 
 
 
 function projects() {
+
+
     return (
         <div>
             <span id="project">
@@ -36,7 +38,7 @@ function projects() {
                     <ul className="projectContainer">
                         <li  >
                             {/* WORK HERE! */}
-                            <a href="#" className="anchor" onMouseOver={ShowBtn} >
+                            <a href="#" className="anchor"  >
                                 <p className="applicationTitle">Movie Search</p>
                                 <button className="learnMoreBtn">Learn More</button>
                                 <img className="projectImage" src={MovieSearch} alt="Image of Movie Search" />
@@ -44,7 +46,7 @@ function projects() {
                         </li>
 
                         <li>
-                            <a href="#" className="anchor">
+                            <a href="#" className="anchor" >
                                 <p className="applicationTitle">Local Wire</p>
                                 <button className="learnMoreBtn">Learn More</button>
                                 <img className="projectImage" src={LocalWire} alt="Image of Local Wire" />
