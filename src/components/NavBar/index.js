@@ -4,7 +4,7 @@ import "./style.css";
 
 
 
-function NavBar () {
+function NavBar() {
     return (
         <div>
             <header>
@@ -15,6 +15,11 @@ function NavBar () {
                         <li><a href="#">About</a></li>
                         <li><a href="#">Connect</a></li>
                     </ul>
+                    <div className="hamburger-menu">
+                        <div className="line line-1"></div>
+                        <div className="line line-2"></div>
+                        <div className="line line-3"></div>
+                    </div>
                 </nav>
             </header>
         </div>

@@ -14,6 +14,16 @@ import CodeQuiz from "../../images/code-quiz-home.png";
 
 // FIXES OTHER TITLES NOT TURNING RED WHEN HOVERING OVER IMAGES
 
+function ShowBtn() {
+    var liElm = document.querySelectorAll(".anchor")
+    var btn = document.querySelectorAll(".learnMoreBtn");
+
+    liElm.addEventListener("mouseenter", function() {
+        btn.style.display = "block"
+    });
+    
+}
+
 
 
 function projects() {
@@ -24,9 +34,9 @@ function projects() {
                     <h1 className="projectTitle">Projects</h1>
                     <p className="pTag">These are some of the work I have done</p>
                     <ul className="projectContainer">
-                        <li>
+                        <li  >
                             {/* WORK HERE! */}
-                            <a href="#" className="anchor" >
+                            <a href="#" className="anchor" onMouseOver={ShowBtn} >
                                 <p className="applicationTitle">Movie Search</p>
                                 <button className="learnMoreBtn">Learn More</button>
                                 <img className="projectImage" src={MovieSearch} alt="Image of Movie Search" />

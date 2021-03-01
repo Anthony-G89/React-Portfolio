@@ -51,8 +51,14 @@ background: linear-gradient(145deg, rgba(236,236,238,1) 0%, rgba(47,46,46,1) 50%
 li {
     list-style: none;
     display: inline-block;
+    -webkit-filter: brightness(0.4);
+    filter: brightness(0.4);
+    transition: all 0.7s ease;
+}
 
-    /* work here */
+li:hover {
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
 }
 .anchor {
     position: relative;
@@ -97,8 +103,11 @@ li {
     background: -webkit-linear-gradient(to right, #93291E, #ED213A); 
     background: linear-gradient(to right, #93291E, #ED213A);
     color: rgb(255, 255, 255); 
-    box-shadow: 6px 7px 12px rgba(0, 0, 0, 0.7);
+    box-shadow: 7px 9px 16px rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
 }
+
+
 
 .projectImage {
     position: relative;
@@ -107,8 +116,9 @@ li {
     margin: 15px;
     border-radius: 10px;
     box-shadow: 10px 14px 20px rgba(0, 0, 0, 0.7), 14px 15px 18px rgba(0, 0, 0, 0.7);
-    filter: brightness(0.4);
+    /* filter: brightness(0.4); */
     transition: transform 0.4s ease;
+    cursor: default;
 }
 
 .projectImage:hover {
