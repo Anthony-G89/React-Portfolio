@@ -9,7 +9,7 @@ section {
     min-height: 100vh;
     padding: 20px;
     position: relative;
-    top: 3rem;
+    top: 7rem;
     z-index: 1;
     /* clip-path: polygon(0 0, 100% 0%, 100% 81%, 0 100%); */
 }
