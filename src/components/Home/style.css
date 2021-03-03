@@ -128,15 +128,34 @@ section {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:989px) {
+@media screen and (max-width:991px) {
+    .squareBackground {
+        left: 26px;
+    }
+    .myTitle {
+        position: relative;
+        bottom: 108px;
+    }
+    .workBtn {
+        display: none;
+    }
     .myTitleContainer {
         display: flex;
         justify-content: center;
+        align-items: center;
+       flex-direction: column;
+    }
+    .projects {
         position: relative;
-        top: 152px;
-        font-size: 1.3rem;
+        top: 13rem;
     }
 }
+
+/* @media screen and (max-width:991px) {
+    .myTitleContainer {
+      
+    }
+} */
 
 @media screen and (max-width:710px) {
     .squareBackground {

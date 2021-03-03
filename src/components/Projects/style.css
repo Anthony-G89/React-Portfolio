@@ -59,7 +59,9 @@ li {
 li:hover {
     -webkit-filter: brightness(1);
     filter: brightness(1);
+    transform: translateY(-10px);
 }
+
 .anchor {
     position: relative;
     display: inline-block;

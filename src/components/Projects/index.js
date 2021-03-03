@@ -31,13 +31,12 @@ function projects() {
 
     return (
         <div>
-            <span id="project">
+            <span  id="project">
                 <section className="projects">
                     <h1 className="projectTitle">Projects</h1>
                     <p className="pTag">These are some of the work I have done</p>
                     <ul className="projectContainer">
-                        <li  >
-                            {/* WORK HERE! */}
+                        <li>
                             <a href="#" className="anchor"  >
                                 <p className="applicationTitle">Movie Search</p>
                                 <button className="learnMoreBtn">Learn More</button>

@@ -1,0 +1,12 @@
+.aboutMe {
+    min-height: 100vh;
+}
+
+.aboutMeTitle {
+    display: flex;
+    /* color: red; */
+    position: relative;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+}
