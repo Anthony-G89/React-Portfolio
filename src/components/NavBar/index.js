@@ -18,7 +18,7 @@ function NavBar(props) {
                             style={{ transform: props.show ? "translateX(0%)" : null }}>
                             <li onClick={props.close} className="nav-item"><a href="#project">Projects</a></li>
                             <li onClick={props.close} className="nav-item"><a href="#aboutME">About</a></li>
-                            <li onClick={props.close} className="nav-item"><a href="#">Connect</a></li>
+                            <li onClick={props.close} className="nav-item"><a href="#connectSection">Connect</a></li>
                         </ul>
                      
                     <div onClick={() => props.slideNav(true)} className="hamburger-menu">
