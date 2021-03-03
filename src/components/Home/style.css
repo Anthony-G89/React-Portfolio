@@ -11,6 +11,7 @@ section {
     position: relative;
     top: 7rem;
     z-index: 1;
+    
     /* clip-path: polygon(0 0, 100% 0%, 100% 81%, 0 100%); */
 }
 
@@ -21,7 +22,7 @@ section {
     left: 3rem;
     z-index: -1;
     width: 95%;
-    height: 330vh;
+    height: 530vh;
     min-height: 760px;
     display: flex;
     min-width: 350px;

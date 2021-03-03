@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import AboutMe from "./components/About-Me";
+import Connect from "./components/Connect";
 import './App.css';
 
 
@@ -26,6 +27,7 @@ function App() {
       <Home />
       <Projects />
       <AboutMe />
+      <Connect />
     </div>
   );
 

@@ -17,7 +17,7 @@ function NavBar(props) {
                         <ul className="nav-links"
                             style={{ transform: props.show ? "translateX(0%)" : null }}>
                             <li onClick={props.close} className="nav-item"><a href="#project">Projects</a></li>
-                            <li onClick={props.close} className="nav-item"><a href="#">About</a></li>
+                            <li onClick={props.close} className="nav-item"><a href="#aboutME">About</a></li>
                             <li onClick={props.close} className="nav-item"><a href="#">Connect</a></li>
                         </ul>
                      
