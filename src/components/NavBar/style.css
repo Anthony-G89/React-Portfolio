@@ -32,19 +32,6 @@ nav {
     min-height: 10vh;
 }
 
-/* .whole-Nav-Bar {
-    position: fixed;
-    top: 0;
-    right: -400px;
-    width: 50%;
-    background-color: lightcoral;
-    z-index: 2;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
 .hamburger-menu {
     position: fixed;
     z-index: 5;
@@ -142,13 +129,18 @@ nav a:hover  {
         align-items: center;
         width: 50%;
         border-radius: 10px 0 0 10px;
-        transition: all 0.5s ease-in;
+        transition: transform 1s ease-in-out;
+        transform: translateX(100%);
        
 
     }
     .nav-item {
        margin: 45px; 
        opacity: 1;
+    }
+
+    .nav-active{
+        transform: translateX(0%);
     }
     
     
