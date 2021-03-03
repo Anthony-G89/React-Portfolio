@@ -27,7 +27,7 @@ function Connection() {
 
                                 <ul>
                                     <li><img src={LinkedIn} className="linkedIn-Icon" /></li>
-                                    <li className="github-Icon" ><img src={Github}/></li>
+                                    <li><img src={Github} className="github-Icon"/></li>
                                 </ul>
                             </p>
                         </div>
