@@ -7,12 +7,12 @@ import "./style.css";
 
 function handleMouseEnter() {
     var arrowBtn = document.querySelector(".arrowBtn");
-    arrowBtn.style.transform = "rotate(90deg)"
+    arrowBtn.style.transform = "rotate(90deg)";
 };
 
 function handleMouseLeave() {
     var arrowBtn = document.querySelector(".arrowBtn");
-    arrowBtn.style.transform = "rotate(0deg)"
+    arrowBtn.style.transform = "rotate(0deg)";
 };
 
 
