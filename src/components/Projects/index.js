@@ -34,9 +34,9 @@ function projects() {
             <span  id="project">
                 <section className="projects">
                     <h1 className="projectTitle">Projects</h1>
-                    <p className="pTag">These are some of the work I have done</p>
+                    <p className="pTag">This is some of the work I have done</p>
                     <ul className="projectContainer">
-                        <li>
+                        <li className="projectContainers">
                             <a href="#" className="anchor"  >
                                 <p className="applicationTitle">Movie Search</p>
                                 <button className="learnMoreBtn">Learn More</button>
@@ -44,7 +44,7 @@ function projects() {
                             </a>
                         </li>
 
-                        <li>
+                        <li className="projectContainers">
                             <a href="#" className="anchor" >
                                 <p className="applicationTitle">Local Wire</p>
                                 <button className="learnMoreBtn">Learn More</button>
@@ -52,7 +52,7 @@ function projects() {
                             </a>
                         </li>
 
-                        <li>
+                        <li className="projectContainers">
                             <a href="#" className="anchor">
                                 <p className="applicationTitle">Weather Dashboard</p>
                                 <button className="learnMoreBtn">Learn More</button>
@@ -60,7 +60,7 @@ function projects() {
                             </a>
                         </li>
 
-                        <li>
+                        <li className="projectContainers">
                             <a href="#" className="anchor">
                                 <p className="applicationTitle">password Generator</p>
                                 <button className="learnMoreBtn">Learn More</button>
@@ -68,7 +68,7 @@ function projects() {
                             </a>
                         </li>
 
-                        <li>
+                        <li className="projectContainers">
                             <a href="#" className="anchor">
                                 <p className="applicationTitle">Employee Directory</p>
                                 <button className="learnMoreBtn">Learn More</button>
@@ -76,7 +76,7 @@ function projects() {
                             </a>
                         </li>
 
-                        <li>
+                        <li className="projectContainers">
                             <a href="#" className="anchor">
                                 <p className="applicationTitle">Code Quiz</p>
                                 <button className="learnMoreBtn">Learn More</button>

@@ -18,18 +18,18 @@ function Connection() {
                 <section className="Connect">
                     <h1 className="connectTitle">Connect</h1>
                     <div className="row connectRow">
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 connect-col">
                             <img src={ConnectPicture} className="connectPicture" />
                         </div>
-                        <div className="col-lg-6 ">
+                        <div className="col-lg-6 connect-col ">
                             <p className="textConnectSection">
                                 If you want to work together, find out more about a project, or just chat. Don't hesitate. Just click on the links below.
+                                </p>
+                            <ul className="socialNetworkContainer">
+                                <li className="liTagsForConnect"><img src={LinkedIn} className="socialNetwork-Icon" title="LinkedIn" /></li>
+                                <li  className="liTagsForConnect"><img src={Github} className="socialNetwork-Icon" title="GitHub" /></li>
+                            </ul>
 
-                                <ul>
-                                    <li><img src={LinkedIn} className="linkedIn-Icon" /></li>
-                                    <li><img src={Github} className="github-Icon"/></li>
-                                </ul>
-                            </p>
                         </div>
                     </div>
                 </section>

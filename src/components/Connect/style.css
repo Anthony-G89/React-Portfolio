@@ -29,7 +29,13 @@
     margin-top: 20rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+}
+
+.connect-col {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
 }
 
 .connectPicture {
@@ -37,6 +43,7 @@
     border-radius: 9px;
     box-shadow: -30px 36px 21px rgba(0, 0, 0, 0.8);
     transition: transform 1.7s ease;
+    min-width: 400px;
     /* -webkit-box-reflect: below 2px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4)); */
 }
 
@@ -52,12 +59,30 @@
     font-size: 18px;
 }
 
-.linkedIn-Icon {
-    width: 100px;
-    height: 100px;
+.socialNetworkContainer {
+   position: absolute;
+   top: 11rem;
 }
 
-.github-Icon {
+.liTagsForConnect {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.socialNetwork-Icon {
+    list-style: none;
     width: 100px;
     height: 100px;
+    filter: drop-shadow(-21px 13px 8px) ;
+    transition: transform .3s ease-in-out;
+    cursor: pointer;
+}
+
+.socialNetwork-Icon:hover {
+    transform: translateY(-10px);
+}
+
+ul li {
+    list-style: none;
 }
