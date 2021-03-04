@@ -23,11 +23,15 @@ function Connection() {
                         </div>
                         <div className="col-lg-6 connect-col ">
                             <p className="textConnectSection">
-                                If you want to work together, find out more about a project, or just chat. Don't hesitate. Just click on the links below.
+                                If you want to work on a project together, find out more about a project, or just chat. Don't hesitate. Just click on the links below.
                                 </p>
                             <ul className="socialNetworkContainer">
-                                <li className="liTagsForConnect"><img src={LinkedIn} className="socialNetwork-Icon" title="LinkedIn" /></li>
-                                <li  className="liTagsForConnect"><img src={Github} className="socialNetwork-Icon" title="GitHub" /></li>
+                                <li className="liTagsForConnect">
+                                    <a href="https://www.linkedin.com/in/anthony-guerrero-63a3a8199/" target="_blank" rel="noreferrer" > <img src={LinkedIn} className="socialNetwork-Icon" title="LinkedIn" /> </a>
+                                </li>
+                                <li className="liTagsForConnect">
+                                    <a href="https://github.com/Anthony-G89" target="_blank" rel="noreferrer" ><img src={Github} className="socialNetwork-Icon" title="GitHub" /></a>
+                                </li>
                             </ul>
 
                         </div>
