@@ -34,12 +34,12 @@ function projects() {
             <span  id="project">
                 <section className="projects">
                     <h1 className="projectTitle">Projects</h1>
-                    <p className="pTag">This is some of the work I have done</p>
+                    <p className="pTag">Check out my work</p>
                     <ul className="projectContainer">
                         <li className="projectContainers">
                             <a href="#" className="anchor"  >
                                 <p className="applicationTitle">Movie Search</p>
-                                <button className="learnMoreBtn">Learn More</button>
+                                <button className="learnMoreBtn">Show me more</button>
                                 <img className="projectImage" src={MovieSearch} alt="Image of Movie Search" />
                             </a>
                         </li>
@@ -47,7 +47,7 @@ function projects() {
                         <li className="projectContainers">
                             <a href="#" className="anchor" >
                                 <p className="applicationTitle">Local Wire</p>
-                                <button className="learnMoreBtn">Learn More</button>
+                                <button className="learnMoreBtn">Show me more</button>
                                 <img className="projectImage" src={LocalWire} alt="Image of Local Wire" />
                             </a>
                         </li>
@@ -55,7 +55,7 @@ function projects() {
                         <li className="projectContainers">
                             <a href="#" className="anchor">
                                 <p className="applicationTitle">Weather Dashboard</p>
-                                <button className="learnMoreBtn">Learn More</button>
+                                <button className="learnMoreBtn">Show me more</button>
                                 <img className="projectImage" src={WeatherD} alt="Image of Weather Dashboard" />
                             </a>
                         </li>
@@ -63,7 +63,7 @@ function projects() {
                         <li className="projectContainers">
                             <a href="#" className="anchor">
                                 <p className="applicationTitle">password Generator</p>
-                                <button className="learnMoreBtn">Learn More</button>
+                                <button className="learnMoreBtn">Show me more</button>
                                 <img className="projectImage" src={PasswordGen} alt="Image of Password Generator" />
                             </a>
                         </li>
@@ -71,7 +71,7 @@ function projects() {
                         <li className="projectContainers">
                             <a href="#" className="anchor">
                                 <p className="applicationTitle">Employee Directory</p>
-                                <button className="learnMoreBtn">Learn More</button>
+                                <button className="learnMoreBtn">Show me more</button>
                                 <img className="projectImage" src={EmployeeDirectory} alt="Image of Employee Directory " />
                             </a>
                         </li>
@@ -79,7 +79,7 @@ function projects() {
                         <li className="projectContainers">
                             <a href="#" className="anchor">
                                 <p className="applicationTitle">Code Quiz</p>
-                                <button className="learnMoreBtn">Learn More</button>
+                                <button className="learnMoreBtn">Show me more</button>
                                 <img className="projectImage" src={CodeQuiz} alt="Image of Code Quiz" />
                             </a>
                         </li>

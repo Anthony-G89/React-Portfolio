@@ -59,6 +59,37 @@
     font-weight: bold;
 }
 
+.resumeBtn {
+    position: absolute;
+    top: 18rem;
+    width: 17rem;
+    min-width: 10rem;
+    font-size: 21px;
+    font-family: 'Concert One', cursive;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #e3eaec;
+    padding: .3rem 4rem;
+    filter: drop-shadow(15px 21px 16px black);
+    color: rgb(7, 7, 7);
+    transition: transform .3s ease-in;
+}
+
+.resumeBtn:hover {
+    background: #ED213A;  
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A); 
+    background: linear-gradient(to right, #93291E, #ED213A);
+    color: white;
+    transform: translateY(4px);
+}
+
+.resumeIcon {
+    height: 30px;
+    margin-left: 8px;
+}
+
 .aboutMePicture {
     width: 50%;
     min-width: 49%;
