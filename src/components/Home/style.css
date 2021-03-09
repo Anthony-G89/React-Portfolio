@@ -22,7 +22,7 @@ section {
     left: 3rem;
     z-index: -1;
     width: 95%;
-    height: 730vh;
+    height: 670vh;
     min-height: 760px;
     display: flex;
     min-width: 350px;
@@ -81,12 +81,13 @@ section {
 
 .myTitle {
     min-width: 350px;
-    max-width: 600px;
+    max-width: 606px;
     font-size: 2.3rem;
     text-shadow: 4px 12px 16px;
 }
 
-.workTitle {
+.workTitle,
+.Typewriter__wrapper {
     background: #ED213A;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -94,7 +95,10 @@ section {
     -webkit-text-fill-color: transparent;
     display: inline;
     font-weight: bolder;
-    
+}
+
+.Typewriter__cursor {
+    color: black;
 }
 
 .workBtn {
@@ -204,3 +208,17 @@ section {
         left: 12rem;
     }
 }
+
+/* Mobile Styling */
+@media screen and (max-width:499px) {
+    body {
+       overflow-x: hidden;
+    }
+    .imgOfMe {
+        height: 70%;
+    }
+    .myTitle {
+        bottom: 175px;
+    }
+} 
+

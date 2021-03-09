@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import pictureOFMe from "../../images/Profile Pic 2020 (3).jpg";
+import Typewriter from "typewriter-effect";
 import "./style.css";
 
 
@@ -25,11 +26,13 @@ function handleMouseLeave() {
 
 
 
+
+
 function LandingPage() {
 
     return (
         <div>
-      
+
             <section className="home">
                 <div className="row">
                     <div className="squareBackground"></div>
@@ -38,8 +41,19 @@ function LandingPage() {
                         <h3 className="introParagraph">Hello! My name is <br /><span className="name">Anthony Guerrero</span></h3>
                     </div>
                     <div className="col-lg-6 myTitleContainer">
-                        <h2 className="myTitle">I'm a <span className="workTitle"></span>, who builds interactive websites that run across platforms & devices</h2>
-                       <button onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="workBtn">View my work <img className="arrowBtn" src="https://img.icons8.com/windows/32/000000/arrow.png" /></button>
+                        <h2 className="myTitle">I'm a <Typewriter className="workTitle"
+                            onInit={(typewriter) => {
+                                typewriter.typeString('Front-End Developer')
+                                    .pauseFor(2000)
+                                    .deleteAll()
+                                typewriter.typeString('Back-End Developer')
+                                    .pauseFor(2000)
+                                    .deleteAll()
+                                typewriter.typeString('Full Stack Developer')
+                                    .start();
+                            }}
+                        /> who builds interactive websites that run across platforms & devices</h2>
+                        <button onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="workBtn">View my work <img className="arrowBtn" src="https://img.icons8.com/windows/32/000000/arrow.png" /></button>
                     </div>
                 </div>
             </section>

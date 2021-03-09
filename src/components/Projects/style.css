@@ -156,3 +156,9 @@ background: linear-gradient(145deg, rgba(236,236,238,1) 0%, rgba(47,46,46,1) 50%
       overflow-x: hidden;
     }
 }
+
+@media screen and (max-width:665px) {
+    .projects {
+      top: 5rem;
+    }
+}

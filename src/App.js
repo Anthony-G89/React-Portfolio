@@ -18,16 +18,19 @@ function App() {
 
   return (
     <div className="applicationContainer">
-      
+
+
       <NavBar
         show={ShowSlide}
         slideNav={setShowSlide}
         close={closeSlideNav}
       />
       <Home />
-      <Projects />
+      <Projects  />
       <AboutMe />
       <Connect />
+
+
     </div>
   );
 
