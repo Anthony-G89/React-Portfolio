@@ -28,14 +28,14 @@ function handleMouseLeave() {
 
 
 
-function LandingPage() {
+function LandingPage( {close}) {
 
     return (
         <div>
 
-            <section className="home">
+            <section onClick={close} className="home">
                 <div className="row">
-                    <div className="squareBackground"></div>
+                    <div  className="squareBackground"></div>
                     <div className="col-lg-6 pictureAndName">
                         <img src={pictureOFMe} className=" imgOfMe" alt="Image of me" />
                         <h3 className="introParagraph">Hello! My name is <br /><span className="name">Anthony Guerrero</span></h3>

@@ -8,14 +8,14 @@ import Github from "../../images/Github-Icon.png";
 
 
 
-function Connection() {
+function Connection({show}) {
 
 
 
     return (
         <div>
             <span id="connectSection">
-                <section className="Connect">
+                <section onClick={show} className="Connect">
                     <h1 className="connectTitle">Connect</h1>
                     <div className="row connectRow">
                         <div className="col-lg-6 connect-col">

@@ -26,13 +26,13 @@ import CodeQuiz from "../../images/code-quiz-home.png";
 
 
 
-function projects() {
+function projects({close}) {
 
 
     return (
         <div>
             <span  id="project">
-                <section className="projects">
+                <section onClick={close} className="projects">
                     <h1 className="projectTitle">Projects</h1>
                     <p className="pTag">Check out my work</p>
                     <ul className="projectContainer">

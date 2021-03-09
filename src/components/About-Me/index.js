@@ -7,12 +7,12 @@ import "./style.css";
 
 
 
-function aboutMe() {
+function aboutMe({close}) {
 
    
     return (
         <span id="aboutME">
-            <section className="aboutMe">
+            <section onClick={close} className="aboutMe">
                 <h1 className="aboutMeTitle">About Me</h1>
 
                 <div className="row aboutMeRow">

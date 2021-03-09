@@ -25,10 +25,15 @@ function App() {
         slideNav={setShowSlide}
         close={closeSlideNav}
       />
-      <Home />
-      <Projects  />
-      <AboutMe />
-      <Connect />
+      <Home
+        close={closeSlideNav} />
+      <Projects
+        close={closeSlideNav} />
+      <AboutMe
+        close={closeSlideNav} />
+      <Connect
+        close={closeSlideNav}
+      />
 
 
     </div>
