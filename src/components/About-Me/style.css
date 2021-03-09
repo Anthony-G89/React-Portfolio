@@ -51,7 +51,7 @@
 .textAboutMe {
     min-width: 300px;
     max-width: 500px;
-    text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.8);
+    text-shadow: 10px 4px 11px rgba(0, 0, 0, 0.8);
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 1px;
