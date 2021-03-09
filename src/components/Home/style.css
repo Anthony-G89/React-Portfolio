@@ -211,14 +211,17 @@ section {
 
 /* Mobile Styling */
 @media screen and (max-width:499px) {
-    body {
+    /* body {
        overflow-x: hidden;
-    }
+    } */
     .imgOfMe {
         height: 70%;
     }
     .myTitle {
         bottom: 175px;
+    }
+    .squareBackground {
+        left: 10px;
     }
 } 
 

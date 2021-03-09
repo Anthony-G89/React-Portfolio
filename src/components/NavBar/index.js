@@ -21,7 +21,7 @@ function NavBar({ show, slideNav, close }) {
                         <li onClick={close} className="nav-item"><a className="navBar-Links" href="#connectSection">Connect</a></li>
                     </ul>
 
-                    <div onClick={() => slideNav(true)} className="hamburger-menu">
+                    <div onClick={() => slideNav(true)}  className="hamburger-menu">
                         <div className="line line-1"></div>
                         <div className="line line-2"></div>
                         <div className="line line-3"></div>

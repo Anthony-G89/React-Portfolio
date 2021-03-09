@@ -1,3 +1,4 @@
 .applicationContainer {
   text-align: center;
+  overflow-x: hidden;
 }
