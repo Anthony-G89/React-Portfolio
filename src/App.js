@@ -13,6 +13,14 @@ import './App.css';
 
 function App() {
 
+  // Grabbing projectDetail Json and using as a State
+  // const [detail, setDetail] = useState(ProjectDetail);
+
+  // const checkingProjectDetail = (id) => {
+  //   const project = this.state.ProjectDetail.find(rightDetail => rightDetail.id === id);
+  //   console.log(project);
+  // };
+
   // State that controls hamburger menu on Mobile
   const [ShowSlide, setShowSlide] = useState(false);
   const closeSlideNav = () => setShowSlide(false);
@@ -37,10 +45,21 @@ function App() {
       <Home
         close={closeSlideNav} />
 
-      <Modal 
-      closeModals={closeModal}
-      openModal={showModal}
-       />
+      {/* {this.state.ProjectDetail.find(items => ( */}
+         <Modal 
+        //  checking={checkingProjectDetail}
+         closeModals={closeModal}
+         openModal={showModal}
+        //  id={items.id}
+        //  title={items.Title}
+        //  description={items.Description}
+        //  video={items.Video}
+        //  GitHub={items.GitHubLink}
+        //  Link = {items.LinkToApplication}
+
+          />
+      {/* ))}; */}
+     
 
       <Projects
         close={closeSlideNav}
