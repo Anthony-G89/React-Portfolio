@@ -26,12 +26,12 @@ import CodeQuiz from "../../images/code-quiz-home.png";
 
 
 
-function projects({close}) {
+function projects({ close }) {
 
 
     return (
         <div>
-            <span  id="project">
+            <span id="project">
                 <section onClick={close} className="projects">
                     <h1 className="projectTitle">Projects</h1>
                     <p className="pTag">Check out my work</p>
@@ -54,11 +54,12 @@ function projects({close}) {
 
                         <li className="projectContainers">
                             <a href="#" className="anchor">
-                                <p className="applicationTitle">Weather Dashboard</p>
+                                <p className="applicationTitle">Employee Directory</p>
                                 <button className="learnMoreBtn">Show me more</button>
-                                <img className="projectImage" src={WeatherD} alt="Image of Weather Dashboard" />
+                                <img className="projectImage" src={EmployeeDirectory} alt="Image of Employee Directory " />
                             </a>
                         </li>
+
 
                         <li className="projectContainers">
                             <a href="#" className="anchor">
@@ -70,9 +71,9 @@ function projects({close}) {
 
                         <li className="projectContainers">
                             <a href="#" className="anchor">
-                                <p className="applicationTitle">Employee Directory</p>
+                                <p className="applicationTitle">Weather Dashboard</p>
                                 <button className="learnMoreBtn">Show me more</button>
-                                <img className="projectImage" src={EmployeeDirectory} alt="Image of Employee Directory " />
+                                <img className="projectImage" src={WeatherD} alt="Image of Weather Dashboard" />
                             </a>
                         </li>
 

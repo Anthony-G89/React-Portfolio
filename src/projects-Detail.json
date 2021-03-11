@@ -1,0 +1,60 @@
+[
+    {
+        "id": 1,
+      "Title": "Movie Search",
+      "Description": "Movies search is an easy application to use. Just search for amovie and in return you will get information about that movie such as actors, directors, plot etc.",
+      "Video": "https://drive.google.com/file/d/1izOQ0RcyKXyjvmXCmvdo6EGtHkhkri3s/preview",
+      "Git-Hub-Link": "https://github.com/Anthony-G89/Movie-Search-App",
+      "Link-to-application": "https://anthony-g89.github.io/Movie-Search-App/"
+    },
+    {
+        "id": 2,
+      "Title": "Local Wire",
+      "Description": "Local Wire is an application for you to see the nearestlocal breweries, restaurants, and events. All you have to do is enter your city and you'll get your results However, just keep in mind if you want to see the events going on, you have to enter a start date and end date.",
+      "Video": "https://drive.google.com/file/d/169NK_vQ4Uayt8afHqYUI1NtNolovuNa-/preview",
+      "Git-Hub-Link": "https://github.com/Anthony-G89/Local_Wire",
+      "Link-to-application": "https://anthony-g89.github.io/Local_Wire/"
+    },
+    {
+        "id": 3,
+      "Title": "Employee Directory",
+      "Description": "Employee Directory was build using React. User can enter employees name in the search bar to shorten the list of employees.",
+      "Video": "https://drive.google.com/file/d/1uDEExlZv0aE6fbVy4VvKgc5Wt44I9wMf/preview",
+      "Git-Hub-Link": "https://github.com/Anthony-G89/week-19-react-employee-directory",
+      "Link-to-application": "https://secure-garden-28757.herokuapp.com/"
+    },
+    {
+        "id": 4,
+      "Title": "Password Generator",
+      "Description": "User will be able to generate a password and have the option tochoosebetween lowercase, uppercase, number, and symbol. Character length will be a min of 8 and max of 128 characters.",
+      "Video": "https://drive.google.com/file/d/1OFEvIJ0fGCNzNbEZvQLrtnH9rC4b5e_e/preview",
+      "Git-Hub-Link": "https://github.com/Anthony-G89/Password-Generator",
+      "Link-to-application": "https://anthony-g89.github.io/Password-Generator/"
+    },
+    {
+        "id": 5,
+      "Title": "Weather Dashboard",
+      "Description": "I built this application to let users check the weather in the state thatthey are in.They will be able to check the temperature, humidity, wind speed, andUV index for the current day & the next five day forecast.",
+      "Video": "https://drive.google.com/file/d/1TnvhyqDdzKji8AQ_jdlUcnD0pLVPLyUE/preview",
+      "Git-Hub-Link": "https://github.com/Anthony-G89/weather-dashboard",
+      "Link-to-application": "https://anthony-g89.github.io/weather-dashboard/"
+    },
+    {
+        "id": 6,
+      "Title": "Code Quiz",
+      "Description": "Code quiz is an application that will give you 50 seconds toanswer 5codingquestion. But beware, for ever wrong question that you get wrong, you'll lose 6 seconds of the timer. Good luck and have fun 😄. When you finish enter your initals to keep track of yourScore.",
+      "Video": "",
+      "Git-Hub-Link": "https://github.com/Anthony-G89/Code-Quiz",
+      "Link-to-application": "https://anthony-g89.github.io/Code-Quiz/"
+    },
+     {
+        "id": 7,
+        "Title": "Note Taker",
+        "Description": "Note Taker is an application that will let you add notes and also delete them. Don't worry about losing your notes for this application has data persistence",
+        "Video": "https://drive.google.com/file/d/16ItWMxYTMvLa7_Z4vizP9kp47-qre69B/preview",
+        "Git-Hub-Link": "https://github.com/Anthony-G89/week-11-note-taker",
+        "Link-to-application": "https://evening-wildwood-16240.herokuapp.com/"
+
+     }
+
+]

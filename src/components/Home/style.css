@@ -211,9 +211,9 @@ section {
 
 /* Mobile Styling */
 @media screen and (max-width:499px) {
-    /* body {
+    html, body {
        overflow-x: hidden;
-    } */
+    }
     .imgOfMe {
         height: 70%;
     }
