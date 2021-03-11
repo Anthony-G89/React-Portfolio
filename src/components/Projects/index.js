@@ -8,6 +8,8 @@ import PasswordGen from "../../images/password_generator.png";
 import EmployeeDirectory from "../../images/employee_directory.png";
 import MovieSearch from "../../images/movie-search-app.png";
 import CodeQuiz from "../../images/code-quiz-home.png";
+import NoteTaker from "../../images/home_week11_noteTaker.png";
+
 
 
 
@@ -82,6 +84,13 @@ function projects({ close }) {
                                 <p className="applicationTitle">Code Quiz</p>
                                 <button className="learnMoreBtn">Show me more</button>
                                 <img className="projectImage" src={CodeQuiz} alt="Image of Code Quiz" />
+                            </a>
+                        </li>
+                        <li className="projectContainers">
+                            <a href="#" className="anchor">
+                                <p className="applicationTitle">Note Taker</p>
+                                <button className="learnMoreBtn">Show me more</button>
+                                <img className="projectImage" src={NoteTaker} alt="Image of Note Taker" />
                             </a>
                         </li>
 
