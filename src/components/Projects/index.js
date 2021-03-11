@@ -16,19 +16,9 @@ import NoteTaker from "../../images/home_week11_noteTaker.png";
 
 // FIXES OTHER TITLES NOT TURNING RED WHEN HOVERING OVER IMAGES
 
-// function ShowBtn() {
-//     var liElm = document.querySelector(".anchor")
-//     var btn = document.querySelector(".learnMoreBtn");
-
-//     liElm.addEventListener("mouseenter", function() {
-//         btn.style.display = "block"
-//     });
-
-// }
 
 
-
-function projects({ close }) {
+function projects({ close, open }) {
 
 
     return (
@@ -41,7 +31,7 @@ function projects({ close }) {
                         <li className="projectContainers">
                             <a href="#" className="anchor"  >
                                 <p className="applicationTitle">Movie Search</p>
-                                <button className="learnMoreBtn">Show me more</button>
+                                <button onClick={open} className="learnMoreBtn">Show me more</button>
                                 <img className="projectImage" src={MovieSearch} alt="Image of Movie Search" />
                             </a>
                         </li>
@@ -49,7 +39,7 @@ function projects({ close }) {
                         <li className="projectContainers">
                             <a href="#" className="anchor" >
                                 <p className="applicationTitle">Local Wire</p>
-                                <button className="learnMoreBtn">Show me more</button>
+                                <button onClick={open}  className="learnMoreBtn">Show me more</button>
                                 <img className="projectImage" src={LocalWire} alt="Image of Local Wire" />
                             </a>
                         </li>
