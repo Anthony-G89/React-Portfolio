@@ -18,7 +18,7 @@ import NoteTaker from "../../images/home_week11_noteTaker.png";
 
 
 
-function projects({ close, open }) {
+function projects({ close, open, showBtn }) {
 
 
     return (
@@ -29,9 +29,9 @@ function projects({ close, open }) {
                     <p className="pTag">Check out my work</p>
                     <ul className="projectContainer">
                         <li className="projectContainers">
-                            <a href="#" className="anchor"  >
+                            <a  onMouseEnter={showBtn} href="#" className="anchor"  >
                                 <p className="applicationTitle">Movie Search</p>
-                                <button onClick={open} className="learnMoreBtn">Show me more</button>
+                                <button   onClick={open} className="learnMoreBtn">Detail & More</button> 
                                 <img className="projectImage" src={MovieSearch} alt="Image of Movie Search" />
                             </a>
                         </li>
@@ -39,7 +39,7 @@ function projects({ close, open }) {
                         <li className="projectContainers">
                             <a href="#" className="anchor" >
                                 <p className="applicationTitle">Local Wire</p>
-                                <button onClick={open}  className="learnMoreBtn">Show me more</button>
+                                <button onClick={open}  className="learnMoreBtn">Detail & More</button>
                                 <img className="projectImage" src={LocalWire} alt="Image of Local Wire" />
                             </a>
                         </li>
@@ -47,7 +47,7 @@ function projects({ close, open }) {
                         <li className="projectContainers">
                             <a href="#" className="anchor">
                                 <p className="applicationTitle">Employee Directory</p>
-                                <button className="learnMoreBtn">Show me more</button>
+                                <button className="learnMoreBtn">Detail & More</button>
                                 <img className="projectImage" src={EmployeeDirectory} alt="Image of Employee Directory " />
                             </a>
                         </li>
@@ -56,7 +56,7 @@ function projects({ close, open }) {
                         <li className="projectContainers">
                             <a href="#" className="anchor">
                                 <p className="applicationTitle">password Generator</p>
-                                <button className="learnMoreBtn">Show me more</button>
+                                <button className="learnMoreBtn">Detail & More</button>
                                 <img className="projectImage" src={PasswordGen} alt="Image of Password Generator" />
                             </a>
                         </li>
@@ -64,7 +64,7 @@ function projects({ close, open }) {
                         <li className="projectContainers">
                             <a href="#" className="anchor">
                                 <p className="applicationTitle">Weather Dashboard</p>
-                                <button className="learnMoreBtn">Show me more</button>
+                                <button className="learnMoreBtn">Detail & More</button>
                                 <img className="projectImage" src={WeatherD} alt="Image of Weather Dashboard" />
                             </a>
                         </li>
@@ -72,14 +72,14 @@ function projects({ close, open }) {
                         <li className="projectContainers">
                             <a href="#" className="anchor">
                                 <p className="applicationTitle">Code Quiz</p>
-                                <button className="learnMoreBtn">Show me more</button>
+                                <button className="learnMoreBtn">Detail & More</button>
                                 <img className="projectImage" src={CodeQuiz} alt="Image of Code Quiz" />
                             </a>
                         </li>
                         <li className="projectContainers">
                             <a href="#" className="anchor">
                                 <p className="applicationTitle">Note Taker</p>
-                                <button className="learnMoreBtn">Show me more</button>
+                                <button className="learnMoreBtn">Detail & More</button>
                                 <img className="projectImage" src={NoteTaker} alt="Image of Note Taker" />
                             </a>
                         </li>

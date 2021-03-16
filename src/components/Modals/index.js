@@ -16,7 +16,7 @@ function Modals({ openModal, closeModals }) {
                             <p>Donec placerat lobortis enim sed efficitur. Vivamus ullamcorper gravida pellentesque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed dignissim ipsum ac maximus fermentum. Mauris tristique ex odio, nec posuere leo semper eu. Mauris vulputate placerat lacus, in aliquet odio.</p>
 
                         </div>
-                        
+
                         <div className="modalFooter">
                             <p>Links</p>
                             <p>Links</p>

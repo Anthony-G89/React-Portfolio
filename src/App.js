@@ -16,9 +16,9 @@ function App() {
   // Grabbing projectDetail Json and using as a State
   // const [detail, setDetail] = useState(ProjectDetail);
 
-  // const checkingProjectDetail = (id) => {
+  //  checkingProjectDetail = (id) => {
   //   const project = this.state.ProjectDetail.find(rightDetail => rightDetail.id === id);
-  //   console.log(project);
+    
   // };
 
   // State that controls hamburger menu on Mobile
@@ -30,6 +30,14 @@ function App() {
   const [showModal, setshowModal] = useState(false);
   const closeModal = () => setshowModal(false);
   const openModal = () => setshowModal(true);
+
+
+
+  // const [isHovering, setIsHovering] = useState(false);
+
+  // function showAndHideBtn(e)  {
+  // setIsHovering(true)
+  // }
 
 
   return (
@@ -63,7 +71,10 @@ function App() {
 
       <Projects
         close={closeSlideNav}
-        open={openModal} />
+        open={openModal}
+        // showBtn={showAndHideBtn}
+
+        />
 
       <AboutMe
         close={closeSlideNav} />
