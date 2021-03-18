@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.cf0f607c.chunk.css",
+    "main.css": "/React-Portfolio/static/css/main.6e347757.chunk.css",
     "main.js": "/React-Portfolio/static/js/main.199ac91b.chunk.js",
     "main.js.map": "/React-Portfolio/static/js/main.199ac91b.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.7c2ed3d7.js",
@@ -8,7 +8,7 @@
     "static/js/2.fba6ce7a.chunk.js": "/React-Portfolio/static/js/2.fba6ce7a.chunk.js",
     "static/js/2.fba6ce7a.chunk.js.map": "/React-Portfolio/static/js/2.fba6ce7a.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "static/css/main.cf0f607c.chunk.css.map": "/React-Portfolio/static/css/main.cf0f607c.chunk.css.map",
+    "static/css/main.6e347757.chunk.css.map": "/React-Portfolio/static/css/main.6e347757.chunk.css.map",
     "static/js/2.fba6ce7a.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.fba6ce7a.chunk.js.LICENSE.txt",
     "static/media/About-Me-Section-Picture.e9a545ee.jpg": "/React-Portfolio/static/media/About-Me-Section-Picture.e9a545ee.jpg",
     "static/media/Connect-Section-Media-Pic.713d1d1e.jpg": "/React-Portfolio/static/media/Connect-Section-Media-Pic.713d1d1e.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.7c2ed3d7.js",
     "static/js/2.fba6ce7a.chunk.js",
-    "static/css/main.cf0f607c.chunk.css",
+    "static/css/main.6e347757.chunk.css",
     "static/js/main.199ac91b.chunk.js"
   ]
 }
