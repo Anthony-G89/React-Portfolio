@@ -142,11 +142,11 @@ ul li {
     }
 }
 
-@media screen and (max-width:556px) {
+/* @media screen and (max-width:556px) {
     .aboutMe {
       top: 55rem;
     }
-}
+} */
 
 /* Mobile Styling */
 @media screen and (max-width:499px) {

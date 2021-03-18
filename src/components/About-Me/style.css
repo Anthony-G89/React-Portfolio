@@ -157,20 +157,21 @@
     .aboutMe {
       top: 76rem;
     }
+    .aboutMePicture {
+        bottom: 30rem;
+    }
+    .textAboutMe {
+       padding: 10px 20px;
+    }
+    .resumeBtn {
+        top: 28rem;
+    }
     .Connect {
         top: 68rem;
     }
 
 }
 
-/* @media screen and (max-width:556px) {
-    .aboutMe {
-      top: 75rem;
-    }
-    .Connect {
-        top: 75rem;
-    }
-} */
 
 /*  Mobile Styling */
 @media screen and (max-width:499px) {
