@@ -175,6 +175,9 @@
 
 /*  Mobile Styling */
 @media screen and (max-width:499px) {
+    .aboutMe {
+        top: 82rem;
+    }
     .aboutMePicture {
       width: 90%;
       bottom: 32rem;
@@ -189,3 +192,4 @@
         top: 28rem;
     }
 }
+

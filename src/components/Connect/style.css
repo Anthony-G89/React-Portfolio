@@ -151,15 +151,17 @@ ul li {
 /* Mobile Styling */
 @media screen and (max-width:499px) {
     .Connect {
-     top: 50rem;
+     top: 78rem;
     }
     .connectPicture {
         min-width: 98%;
         box-shadow: 9px 14px 20px black;
-        left: 6px;
     }
     .socialNetworkContainer {
         left: 12%;
         top: 3rem;
+    }
+    .textConnectSection {
+        color: white;
     }
 }
