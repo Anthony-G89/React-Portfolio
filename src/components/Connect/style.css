@@ -150,6 +150,9 @@ ul li {
 
 /* Mobile Styling */
 @media screen and (max-width:499px) {
+    .squareBackground {
+        height: 700vh;
+    }
     .Connect {
      top: 78rem;
     }
