@@ -209,6 +209,13 @@ section {
     }
 }
 
+@media screen and (max-width:500px) {
+    .squareBackground {
+       min-height: 712vh;
+    }
+
+}
+
 
 
 
@@ -225,7 +232,8 @@ section {
         bottom: 175px;
     }
     .squareBackground {
-        left: 10px;
+        left: 7px;
+        height: 715vh;
     }
 } 
 
