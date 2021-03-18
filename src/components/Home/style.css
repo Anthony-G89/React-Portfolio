@@ -143,6 +143,7 @@ section {
 @media screen and (max-width:991px) {
     .squareBackground {
         left: 26px;
+        height: 540vh;
     }
     .myTitle {
         position: relative;
@@ -163,11 +164,16 @@ section {
     }
 }
 
-/* @media screen and (max-width:991px) {
-    .myTitleContainer {
-      
+@media screen and (max-width:846px) {
+    .squareBackground {
+        height: 575vh;
     }
-} */
+}
+@media screen and (max-width:576px) {
+    .squareBackground {
+        height: 667vh;
+    }
+}
 
 @media screen and (max-width:710px) {
     .squareBackground {
@@ -211,7 +217,7 @@ section {
 
 @media screen and (max-width:500px) {
     .squareBackground {
-       min-height: 712vh;
+       min-height: 607vh;
     }
 
 }
