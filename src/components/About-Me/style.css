@@ -135,17 +135,42 @@
     }
 }
 
+@media screen and (max-width:846px) {
+    /* .squareBackground {
+        height: 537vh;
+    } */
+    .aboutMe {
+      top: 26rem;
+    }
+    .Connect {
+        top: 24rem;
+    }
+}
+
 @media screen and (max-width:665px) {
     .aboutMe {
       top: 14rem;
     }
 }
 
-@media screen and (max-width:556px) {
+@media screen and (max-width:576px) {
     .aboutMe {
-      top: 55rem;
+      top: 76rem;
     }
+    .Connect {
+        top: 68rem;
+    }
+
 }
+
+/* @media screen and (max-width:556px) {
+    .aboutMe {
+      top: 75rem;
+    }
+    .Connect {
+        top: 75rem;
+    }
+} */
 
 /*  Mobile Styling */
 @media screen and (max-width:499px) {
