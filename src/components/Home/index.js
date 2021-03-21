@@ -23,6 +23,12 @@ function handleMouseLeave() {
 //     // console.log(scrolled);
 // })
 
+window.addEventListener("scroll", () => {
+    const arrowBtn = document.querySelector(".upArrow");
+    arrowBtn.classList.toggle("active", window.scrollY > 2100);
+});
+
+
 
 
 

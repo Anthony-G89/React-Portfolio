@@ -32,10 +32,8 @@ function App() {
   const openModal = () => setshowModal(true);
 
 
-  window.addEventListener("scroll", () => {
-    const scrolled = window.scrollY;
-    console.log(scrolled);
-  })
+ 
+
 
 
 
