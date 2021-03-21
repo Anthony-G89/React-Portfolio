@@ -37,7 +37,7 @@ section {
     background-color: white;
 }
 
-.squareBackground {
+/* .squareBackground {
     background: rgb(0,0,0);
     background: linear-gradient(145deg, rgb(43, 42, 42) 0%, rgba(236,236,238,1) 32%, rgba(236,236,238,1) 70%, rgba(0,0,0,1) 100%);
     position: absolute;
@@ -50,7 +50,7 @@ section {
     min-width: 350px;
     border-radius: 30px;
     
-}
+} */
 
 /* .row {
     align-items: baseline;
@@ -162,11 +162,19 @@ section {
 
 /* MEDIA QUERIES */
 
+@media screen and (max-width:1034px) {
+    .workBtn {
+        left: 5rem;
+        
+    }
+} 
+
+
 @media screen and (max-width:991px) {
-    .squareBackground {
+    /* .squareBackground {
         left: 26px;
         height: 540vh;
-    }
+    } */
     .myTitle {
         position: relative;
         bottom: 108px;
