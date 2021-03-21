@@ -16,8 +16,8 @@ function App() {
   // Grabbing projectDetail Json and using as a State
   // const [detail, setDetail] = useState(ProjectDetail);
 
-  //  checkingProjectDetail = (id) => {
-  //   const project = this.state.ProjectDetail.find(rightDetail => rightDetail.id === id);
+  //  const checkingProjectDetail = (id) => {
+  //    this.state.ProjectDetail.find(rightDetail => rightDetail.id === id);
     
   // };
 
@@ -30,6 +30,12 @@ function App() {
   const [showModal, setshowModal] = useState(false);
   const closeModal = () => setshowModal(false);
   const openModal = () => setshowModal(true);
+
+
+  window.addEventListener("scroll", () => {
+    const scrolled = window.scrollY;
+    console.log(scrolled);
+  })
 
 
 
@@ -66,7 +72,7 @@ function App() {
         //  Link = {items.LinkToApplication}
 
           />
-      {/* ))}; */}
+       {/* )) }; */}
      
 
       <Projects

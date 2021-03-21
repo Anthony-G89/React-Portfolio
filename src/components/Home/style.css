@@ -15,6 +15,17 @@ section {
     /* clip-path: polygon(0 0, 100% 0%, 100% 81%, 0 100%); */
 }
 
+.upArrow {
+    position: fixed;
+    right: 60px;
+    bottom: 30px;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
 .squareBackground {
     background: rgb(0,0,0);
     background: linear-gradient(145deg, rgb(43, 42, 42) 0%, rgba(236,236,238,1) 32%, rgba(236,236,238,1) 70%, rgba(0,0,0,1) 100%);

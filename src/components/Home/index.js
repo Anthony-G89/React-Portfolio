@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import pictureOFMe from "../../images/Profile Pic 2020 (3).jpg";
+import Arrow from "../../images/icons8-up-64.png";
 import Typewriter from "typewriter-effect";
 import "./style.css";
 
@@ -34,6 +35,7 @@ function LandingPage( {close}) {
         <div>
 
             <section onClick={close} className="home">
+            <img className="upArrow" src={Arrow}/>
                 <div className="row">
                     <div  className="squareBackground"></div>
                     <div className="col-lg-6 pictureAndName">

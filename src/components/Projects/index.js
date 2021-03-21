@@ -27,11 +27,12 @@ function projects({ close, open, showBtn }) {
                 <section onClick={close} className="projects">
                     <h1 className="projectTitle">Projects</h1>
                     <p className="pTag">Check out my work</p>
+
                     <ul className="projectContainer">
                         <li className="projectContainers">
-                            <a  onMouseEnter={showBtn} href="#" className="anchor"  >
+                            <a onMouseEnter={showBtn} href="#" className="anchor"  >
                                 <p className="applicationTitle">Movie Search</p>
-                                <button   onClick={open} className="learnMoreBtn">Detail & More</button> 
+                                <button onClick={open} className="learnMoreBtn">Detail & More</button>
                                 <img className="projectImage" src={MovieSearch} alt="Image of Movie Search" />
                             </a>
                         </li>
@@ -39,7 +40,7 @@ function projects({ close, open, showBtn }) {
                         <li className="projectContainers">
                             <a href="#" className="anchor" >
                                 <p className="applicationTitle">Local Wire</p>
-                                <button onClick={open}  className="learnMoreBtn">Detail & More</button>
+                                <button onClick={open} className="learnMoreBtn">Detail & More</button>
                                 <img className="projectImage" src={LocalWire} alt="Image of Local Wire" />
                             </a>
                         </li>
