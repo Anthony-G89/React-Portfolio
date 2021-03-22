@@ -4,7 +4,7 @@
 
 .projects {
     min-height: 100vh;
-    margin-bottom: 38rem;
+    top: 20rem;
     flex-wrap: wrap;
 }
 

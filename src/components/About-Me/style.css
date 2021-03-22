@@ -116,9 +116,9 @@
 }
 
 
-@media screen and  (max-width:991px) {
+@media screen and (min-width:848px) and (max-width:991px) {
     .aboutMe {
-        top: 29rem;
+        top: 70rem;
     }
     .aboutMePicture {
         position: relative;
@@ -137,7 +137,7 @@
         top: 37rem;
     }
     .Connect {
-        top: 36rem;
+        top: 79rem;
     }
     .connectPicture {
         -webkit-box-reflect: below 4px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.0));
@@ -152,15 +152,43 @@
     }
 }
 
-/* @media screen and (max-width:846px) {
-    .squareBackground {
-        height: 537vh;
+@media screen and (max-width:847px) {
+    .aboutMe {
+        top: 87rem;
+    }
+    .aboutMePicture {
+        position: relative;
+        filter: none;
+        transform: none;
+        bottom: 22rem;
+        box-shadow: 21px 28px 21px;
+    }
+    .textAboutMe {
+        top: 22rem;
+        left: 0rem;
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .resumeBtn {
+        top: 37rem;
+    }
+    .Connect {
+        top: 96rem;
+    }
+    .connectPicture {
+        -webkit-box-reflect: below 4px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.0));
+        box-shadow: 21px 28px 21px;
+    }
+    .textConnectSection {
+        bottom: 5rem;
+        color: white;
+    }
+    .socialNetworkContainer {
+        top: 4rem;
     }
     
-    .Connect {
-        top: 19rem;
-    }
-} */
+    
+}
 
 @media screen and (max-width:665px) {
     .aboutMe {

@@ -34,7 +34,7 @@ section {
     opacity: 1;
 }
 .upArrow:hover {
-    background-color: white;
+    background-color: rgb(156, 154, 154);
 }
 
 /* .squareBackground {
@@ -194,7 +194,7 @@ section {
     }
 }
 
-@media screen and (max-width:846px) {
+/* @media screen and (max-width:846px) {
     .squareBackground {
         height: 575vh;
     }
@@ -209,7 +209,7 @@ section {
     .squareBackground {
        left: 17px;
     }
-}
+} */
 
 @media screen and (max-width:665px) {
     body {
