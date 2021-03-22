@@ -3,8 +3,7 @@ a {
 }
 
 .Connect {
-    min-height: 100vh;
-    margin-top: 20rem;
+   top: 80rem;
 }
 
 .connectTitle {
@@ -22,9 +21,9 @@ a {
     display: block;
     position: absolute;
     bottom: -27px;
-    background: #ED213A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ED213A; 
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A); 
+    background: linear-gradient(to right, #93291E, #ED213A); 
     height: 3px;
     width: 21rem;
 }
@@ -33,13 +32,11 @@ a {
     margin-top: 20rem;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .connect-col {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 
@@ -54,7 +51,6 @@ a {
 }
 
  .connectPicture:hover {
-    /* transform: rotateX(160deg); */
     filter: blur(0px);
 } 
 

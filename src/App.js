@@ -24,6 +24,7 @@ function App() {
   // State that controls hamburger menu on Mobile
   const [ShowSlide, setShowSlide] = useState(false);
   const closeSlideNav = () => setShowSlide(false);
+  const openNav = () => setShowSlide(true);
 
 
   //  State that controls the Modals
@@ -52,6 +53,7 @@ function App() {
         show={ShowSlide}
         slideNav={setShowSlide}
         close={closeSlideNav}
+        open={openNav}
       />
 
       <Home
