@@ -16,8 +16,8 @@ function NavBar({ show, slideNav, close, open }) {
 
                     <ul className="nav-links"
                         style={{ transform: show ? "translateX(0%)" : null }}>
-                        <li onClick={close} className="nav-item"><a className="navBar-Links" href="#project">Projects</a></li>
-                        <li onClick={close} className="nav-item"><a className="navBar-Links" href="#aboutME">About</a></li>
+                        <li onClick={close} className="nav-item"><a className="navBar-Links" href="#projectSection">Projects</a></li>
+                        <li onClick={close} className="nav-item"><a className="navBar-Links" href="#aboutMESection">About</a></li>
                         <li onClick={close} className="nav-item"><a className="navBar-Links" href="#connectSection">Connect</a></li>
                     </ul>
 

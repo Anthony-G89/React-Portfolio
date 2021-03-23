@@ -23,12 +23,12 @@ function projects({ close, open, showBtn }) {
 
     return (
         <div>
-            <span id="project">
+            <span id="projectSection">
                 <section onClick={close} className="projects">
                     <h1 className="projectTitle">Projects</h1>
                     <p className="pTag">Check out my work</p>
 
-                    <ul className="projectContainer">
+                    <span id="projectsTest"> <ul className="projectContainer">
                         <li className="projectContainers">
                             <a onMouseEnter={showBtn} href="#" className="anchor"  >
                                 <p className="applicationTitle">Movie Search</p>
@@ -86,6 +86,7 @@ function projects({ close, open, showBtn }) {
                         </li>
 
                     </ul>
+                    </span>
                 </section>
             </span>
         </div>

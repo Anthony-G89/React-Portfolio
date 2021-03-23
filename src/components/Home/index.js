@@ -61,7 +61,7 @@ function LandingPage( {close}) {
                                     .start();
                             }}
                         /> who builds interactive websites that run across platforms & devices</h2>
-                        <button onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="workBtn">View my work <img className="arrowBtn" src="https://img.icons8.com/windows/32/000000/arrow.png" alt={"Image of an arrow"} /></button>
+                       <a href="#projectSection" > <button onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}  className="workBtn">View my work <img className="arrowBtn"  src="https://img.icons8.com/windows/32/000000/arrow.png" alt={"Image of an arrow"} /></button> </a>
                     </div>
                 </div>
             </section>
