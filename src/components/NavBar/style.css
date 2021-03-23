@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -89,9 +91,9 @@ a:hover {
     display: block;
     position: absolute;
     top: 0px;
-    background: #ED213A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ED213A; 
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  
+    background: linear-gradient(to right, #93291E, #ED213A); 
     height: 3px;
     width: 100%;
     transform: scaleX(0);
@@ -107,11 +109,6 @@ a:hover {
     transform: scaleX(1);
 }
 
-/* nav a:hover  {
-    color: #ED213A;
-    color: -webkit-linear-gradient(to right, #93291E, #ED213A);  
-    color: linear-gradient(to right, #93291E, #ED213A); 
-} */
 
 
 /* MEDIA QUERIES */
@@ -177,7 +174,6 @@ a:hover {
     .nav-active{
         transform: translateX(0%);
     }
-    
     
 }
 
