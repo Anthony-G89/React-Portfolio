@@ -191,7 +191,7 @@ ul li {
 @media screen and (max-width:499px) {
     
     .Connect {
-     top: 78rem;
+     top: 137rem;
     }
     .connectPicture {
         min-width: 98%;
@@ -199,9 +199,9 @@ ul li {
     }
     .socialNetworkContainer {
         left: 12%;
-        top: 3rem;
+        top: 4rem;
     }
     .textConnectSection {
-        color: white;
+        color: black;
     }
 }

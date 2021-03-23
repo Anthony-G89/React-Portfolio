@@ -217,20 +217,18 @@
 /*  Mobile Styling */
 @media screen and (max-width:499px) {
     .aboutMe {
-        top: 82rem;
+        top: 127rem;
     }
     .aboutMePicture {
-      width: 90%;
       bottom: 32rem;
-      left: -4px;
       box-shadow: 12px 13px 20px black;
       filter: none;
     }
     .textAboutMe {
-        top: 10rem;   
+        top: 15rem;   
     }
     .resumeBtn {
-        top: 28rem;
+        top: 34rem;
     }
 }
 
