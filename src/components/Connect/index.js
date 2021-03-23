@@ -1,8 +1,9 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./style.css";
-import ConnectPicture from "../../images/Connect-Section-Media-Pic.jpg";
+import ConnectPicture from "../../images/Connect-Section-Media-Pic (1).png";
 import LinkedIn from "../../images/LinkedIn-Icon.png";
 import Github from "../../images/Github-Icon.png";
 
@@ -19,7 +20,7 @@ function Connection({show}) {
                     <h1 className="connectTitle">Connect</h1>
                     <div className="row connectRow">
                         <div className="col-lg-6 connect-col">
-                            <img src={ConnectPicture} className="connectPicture" />
+                            <img src={ConnectPicture} className="connectPicture" alt={"Image of a phone that has social media applications"} />
                         </div>
                         <div className="col-lg-6 connect-col ">
                             <p className="textConnectSection">

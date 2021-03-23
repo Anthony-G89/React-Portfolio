@@ -42,6 +42,7 @@ a {
 
 .connectPicture {
     width: 50%;
+    height: 100%;
     border-radius: 9px;
     box-shadow: -8px -10px 18px rgba(0, 0, 0, 0.8);
     transition: transform 1.7s ease;
@@ -61,7 +62,7 @@ a {
     text-shadow: 4px 4px 11px rgba(0, 0, 0, 0.8);
     font-size: 20px;
     line-height: 30px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-weight: bold;
     position: relative;
 }
@@ -129,12 +130,54 @@ ul li {
     }
 }
 
+@media screen and (max-width:847px) { 
+     .Connect {
+        top: 121rem;
+    }
+    .connectPicture {
+        -webkit-box-reflect: below 4px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.0));
+        box-shadow: 21px 28px 21px;
+    }
+    .textConnectSection {
+        bottom: 5rem;
+        color: black;
+    }
+    .socialNetworkContainer {
+        top: 4rem;
+    } 
+}
+
 @media screen and (max-width:665px) {
     .connect {
       top: 16rem;
     }
     .socialNetworkContainer {
         left: 25%;
+    }
+}
+
+@media screen and (min-width:540px) and (max-width:576px) {
+    .Connect {
+        top: 162rem;
+    }
+    .socialNetworkContainer {
+        top: 90px;
+        left: 21%;
+    }
+}
+
+@media screen and (max-width:539px) {
+    .Connect {
+        top: 164rem;
+    }
+    .connectPicture {
+        bottom: 180px;
+    }
+    .textConnectSection {
+        bottom: 113px;
+    }
+    .socialNetworkContainer {
+        left: 19%;
     }
 }
 

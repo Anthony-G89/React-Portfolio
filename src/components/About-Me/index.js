@@ -1,8 +1,9 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import picture from "../../images/About-Me-Section-Picture.jpg";
+import picture from "../../images/About-Me-Section-Picture.png";
 import "./style.css";
 
 
@@ -20,12 +21,12 @@ function aboutMe({close}) {
                         <p className="textAboutMe">I'm a driven Full Stack Developer who loves to code and learn new Libraries and frameworks. I completed over 600 hours at UCF Coding Boot Camp. I'm Fast learner, hard worker, can adapt to any changes, and a team player who is proficient in an array of programming languages. On my free time, I like to go to the gym, play Fifa, and watch soccer or football.
                         </p>
                         <a className="resumeBtn" href="https://drive.google.com/file/d/1kEFu3n0Qe2xRWVQt9aPIIwvmrFsKyTP6/view?usp=sharing" target="_blank" rel="noreferrer">My Resume
-                        <img className="resumeIcon" src="https://img.icons8.com/office/40/000000/open-resume.png" />
+                        <img className="resumeIcon" src="https://img.icons8.com/office/40/000000/open-resume.png" alt={"Icon picture of a resume"} /> 
                         </a>
 
                     </div>
                     <div className="col-lg-6 aboutMeSection">
-                        <img className="aboutMePicture" src={picture} />
+                        <img className="aboutMePicture" src={picture} alt={"Random image of people sitting at a table with their computers. "} />
                     </div>
 
                 </div>

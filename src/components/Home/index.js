@@ -41,7 +41,7 @@ function LandingPage( {close}) {
         <div>
 
             <section onClick={close} className="home">
-            {/* <img className="upArrow" src={Arrow}/> */}
+            {/* <img className="upArrow" src={Arrow} alt={"image of an up arrow"}/> */}
                 <div className="row">
                     <div  className="squareBackground"></div>
                     <div className="col-lg-6 pictureAndName">
@@ -61,7 +61,7 @@ function LandingPage( {close}) {
                                     .start();
                             }}
                         /> who builds interactive websites that run across platforms & devices</h2>
-                        <button onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="workBtn">View my work <img className="arrowBtn" src="https://img.icons8.com/windows/32/000000/arrow.png" /></button>
+                        <button onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="workBtn">View my work <img className="arrowBtn" src="https://img.icons8.com/windows/32/000000/arrow.png" alt={"Image of an arrow"} /></button>
                     </div>
                 </div>
             </section>

@@ -91,6 +91,7 @@
 
 .aboutMePicture {
     width: 50%;
+    height: 50%;
     min-width: 43%;
     min-height: 429px;
     transform: rotate(11deg);
@@ -143,7 +144,7 @@
     }
     .textConnectSection {
         bottom: 5rem;
-        color: white;
+        color: black;
     }
     .socialNetworkContainer {
         top: 4rem;
@@ -152,7 +153,7 @@
 
 @media screen and (max-width:847px) {
     .aboutMe {
-        top: 87rem;
+        top: 93rem;
     }
     .aboutMePicture {
         position: relative;
@@ -170,20 +171,7 @@
     .resumeBtn {
         top: 37rem;
     }
-    .Connect {
-        top: 95rem;
-    }
-    .connectPicture {
-        -webkit-box-reflect: below 4px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.0));
-        box-shadow: 21px 28px 21px;
-    }
-    .textConnectSection {
-        bottom: 5rem;
-        color: white;
-    }
-    .socialNetworkContainer {
-        top: 4rem;
-    }
+    
     
     
 }
@@ -194,9 +182,9 @@
     }
 }
 
-@media screen and (max-width:576px) {
+@media screen and (min-width:540px) and  (max-width:576px) {
     .aboutMe {
-      top: 137rem;
+      top: 139rem;
     }
     .aboutMePicture {
         min-width: 315px;
@@ -208,12 +196,23 @@
     .resumeBtn {
         top: 31rem;
     }
-    .Connect {
-        top: 139rem;
-    }
-
 }
 
+@media screen and (max-width:539px) {
+    .aboutMe {
+        top: 139rem;
+      }
+      .aboutMePicture {
+        min-width: 315px;
+        bottom: 26rem;
+    }
+    .textAboutMe {
+        top: 19rem;
+    }
+    .resumeBtn {
+        top: 35rem;
+    }
+}
 
 /*  Mobile Styling */
 @media screen and (max-width:499px) {
