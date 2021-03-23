@@ -135,7 +135,7 @@
     .resumeBtn {
         top: 37rem;
     }
-    .Connect {
+    /* .Connect {
         top: 79rem;
     }
     .connectPicture {
@@ -148,7 +148,7 @@
     }
     .socialNetworkContainer {
         top: 4rem;
-    }
+    } */
 }
 
 @media screen and (max-width:847px) {
@@ -176,7 +176,7 @@
     
 }
 
-@media screen and (max-width:665px) {
+@media screen and  (min-width: 577px) and (max-width:665px) {
     .aboutMe {
       top: 86rem;
     }

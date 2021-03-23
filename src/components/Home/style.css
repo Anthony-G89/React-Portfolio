@@ -237,7 +237,7 @@ section {
        overflow-x: hidden;
     }
     .imgOfMe {
-        height: 70%;
+        height: auto;
     }
     .myTitle {
         bottom: 175px;

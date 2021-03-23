@@ -57,3 +57,26 @@
     letter-spacing: 1px;
     min-width: 370px;
 }
+
+
+
+/*  Media Queries */
+
+@media screen and (min-width:560px) and (max-width:865px) {
+    .modal-box {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:559px) {
+    .modal-box {
+        width: 81%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .modal-box {
+        width: 95%;
+        height: auto;
+    }
+}
