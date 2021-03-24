@@ -7,15 +7,6 @@ import Typewriter from "typewriter-effect";
 import "./style.css";
 
 
-function handleMouseEnter() {
-    var arrowBtn = document.querySelector(".arrowBtn");
-    arrowBtn.style.transform = "rotate(90deg)";
-};
-
-function handleMouseLeave() {
-    var arrowBtn = document.querySelector(".arrowBtn");
-    arrowBtn.style.transform = "rotate(0deg)";
-};
 
 
 // window.addEventListener("scroll", () =>{
@@ -35,15 +26,15 @@ function handleMouseLeave() {
 
 
 
-function LandingPage( {close}) {
+function LandingPage({ close }) {
 
     return (
         <div>
 
             <section onClick={close} className="home">
-            {/* <img className="upArrow" src={Arrow} alt={"image of an up arrow"}/> */}
+                {/* <img className="upArrow" src={Arrow} alt={"image of an up arrow"}/> */}
                 <div className="row">
-                    <div  className="squareBackground"></div>
+                    <div className="squareBackground"></div>
                     <div className="col-lg-6 pictureAndName">
                         <img src={pictureOFMe} className=" imgOfMe" alt="Image of me" />
                         <h3 className="introParagraph">Hello! My name is <br /><span className="name">Anthony Guerrero</span></h3>
@@ -61,7 +52,7 @@ function LandingPage( {close}) {
                                     .start();
                             }}
                         /> who builds interactive websites that run across platforms & devices</h2>
-                       <a href="#projectSection" > <button onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}  className="workBtn">View my work <img className="arrowBtn"  src="https://img.icons8.com/windows/32/000000/arrow.png" alt={"Image of an arrow"} /></button> </a>
+                        <a className="workBtn" href="#projectSection" > View my work <img className="arrowBtn" src="https://img.icons8.com/windows/32/000000/arrow.png" alt={"Image of an arrow"} /></a>
                     </div>
                 </div>
             </section>

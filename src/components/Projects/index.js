@@ -2,15 +2,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import "./style.css";
-import LocalWire from "../../images/Local-wire-HomePage.png";
-import WeatherD from "../../images/showingFiveDayForeCast(2).png";
-import PasswordGen from "../../images/password_generator.png";
-import EmployeeDirectory from "../../images/employee_directory.png";
-import MovieSearch from "../../images/movie-search-app.png";
-import CodeQuiz from "../../images/code-quiz-home.png";
-import NoteTaker from "../../images/home_week11_noteTaker.png";
-
-
 
 
 
@@ -18,7 +9,8 @@ import NoteTaker from "../../images/home_week11_noteTaker.png";
 
 
 
-function projects({ close, open, showBtn }) {
+function projects({ close, open, projectsItems }) {
+
 
 
     return (
@@ -29,62 +21,17 @@ function projects({ close, open, showBtn }) {
                     <p className="pTag">Check out my work</p>
 
                     <ul className="projectContainer">
-                        <li className="projectContainers">
-                            <a onMouseEnter={showBtn} href="#" className="anchor"  >
-                                <p className="applicationTitle">Movie Search</p>
-                                <button onClick={open} className="learnMoreBtn">Detail & More</button>
-                                <img className="projectImage" src={MovieSearch} alt="Image of Movie Search" />
-                            </a>
-                        </li>
-
-                        <li className="projectContainers">
-                            <a href="#" className="anchor" >
-                                <p className="applicationTitle">Local Wire</p>
-                                <button onClick={open} className="learnMoreBtn">Detail & More</button>
-                                <img className="projectImage" src={LocalWire} alt="Image of Local Wire" />
-                            </a>
-                        </li>
-
-                        <li className="projectContainers">
-                            <a href="#" className="anchor">
-                                <p className="applicationTitle">Employee Directory</p>
-                                <button className="learnMoreBtn">Detail & More</button>
-                                <img className="projectImage" src={EmployeeDirectory} alt="Image of Employee Directory " />
-                            </a>
-                        </li>
-
-
-                        <li className="projectContainers">
-                            <a href="#" className="anchor">
-                                <p className="applicationTitle">password Generator</p>
-                                <button className="learnMoreBtn">Detail & More</button>
-                                <img className="projectImage" src={PasswordGen} alt="Image of Password Generator" />
-                            </a>
-                        </li>
-
-                        <li className="projectContainers">
-                            <a href="#" className="anchor">
-                                <p className="applicationTitle">Weather Dashboard</p>
-                                <button className="learnMoreBtn">Detail & More</button>
-                                <img className="projectImage" src={WeatherD} alt="Image of Weather Dashboard" />
-                            </a>
-                        </li>
-
-                        <li className="projectContainers">
-                            <a href="#" className="anchor">
-                                <p className="applicationTitle">Code Quiz</p>
-                                <button className="learnMoreBtn">Detail & More</button>
-                                <img className="projectImage" src={CodeQuiz} alt="Image of Code Quiz" />
-                            </a>
-                        </li>
-                        <li className="projectContainers">
-                            <a href="#" className="anchor">
-                                <p className="applicationTitle">Note Taker</p>
-                                <button className="learnMoreBtn">Detail & More</button>
-                                <img className="projectImage" src={NoteTaker} alt="Image of Note Taker" />
-                            </a>
-                        </li>
-
+                        {
+                            projectsItems.map(project => (
+                                <li key={project.id} className="projectContainers">
+                                    <a className="anchor"  >
+                                        <p className="applicationTitle">{project.Title}</p>
+                                        <img className="projectImage" src={`${process.env.PUBLIC_URL}${project.picture}`} alt={project.Title} />
+                                        <button onClick={() => { open(project) }} className="learnMoreBtn">Detail & More</button>
+                                    </a>
+                                </li>
+                            ))
+                        }
                     </ul>
                 </section>
             </span>

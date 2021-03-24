@@ -5,21 +5,13 @@ import Projects from "./components/Projects";
 import AboutMe from "./components/About-Me";
 import Connect from "./components/Connect";
 import Modal from "./components/Modals";
-// import ProjectDetail from "./projects-Detail.json";
+import ProjectDetail from "./projects-Detail.json";
 import './App.css';
 
 
 
 
 function App() {
-
-  // Grabbing projectDetail Json and using as a State
-  // const [detail, setDetail] = useState(ProjectDetail);
-
-  //  const checkingProjectDetail = (id) => {
-  //    this.state.ProjectDetail.find(rightDetail => rightDetail.id === id);
-    
-  // };
 
   // State that controls hamburger menu on Mobile
   const [ShowSlide, setShowSlide] = useState(false);
@@ -30,19 +22,17 @@ function App() {
   //  State that controls the Modals
   const [showModal, setshowModal] = useState(false);
   const closeModal = () => setshowModal(false);
-  const openModal = () => setshowModal(true);
 
+  const [currentProject, setCurrentProject] = useState();
 
+  const openModal = (project) => { 
+     console.log(project);
+     setCurrentProject(project);
+    setshowModal(true);
+  };
+
+    
  
-
-
-
-
-  // const [isHovering, setIsHovering] = useState(false);
-
-  // function showAndHideBtn(e)  {
-  // setIsHovering(true)
-  // }
 
 
   return (
@@ -59,26 +49,18 @@ function App() {
       <Home
         close={closeSlideNav} />
 
-      {/* {this.state.ProjectDetail.find(items => ( */}
          <Modal 
-        //  checking={checkingProjectDetail}
          closeModals={closeModal}
          openModal={showModal}
-        //  id={items.id}
-        //  title={items.Title}
-        //  description={items.Description}
-        //  video={items.Video}
-        //  GitHub={items.GitHubLink}
-        //  Link = {items.LinkToApplication}
-
+         currentProject={currentProject}
           />
-       {/* )) }; */}
+        
      
 
       <Projects
         close={closeSlideNav}
         open={openModal}
-        // showBtn={showAndHideBtn}
+        projectsItems={ProjectDetail}
 
         />
 

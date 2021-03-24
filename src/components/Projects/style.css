@@ -96,7 +96,7 @@
 }
 
 .learnMoreBtn {
-    /* display: none; */
+    display: none;
     position: absolute;
     z-index: 1;
     top: 11rem;
@@ -113,6 +113,8 @@
     color: rgb(255, 255, 255); 
     box-shadow: 7px 9px 16px rgba(0, 0, 0, 0.8);
     border-radius: 8px;
+    transition: transform 0.7s ease-in-out;
+    
 }
 
 
@@ -131,7 +133,13 @@
 .projectImage:hover {
     filter: grayscale(0%);    
 }
+.anchor:hover > .learnMoreBtn, .learnMoreBtn:hover {
+    display: block;
+}
 
+.anchor:hover > .applicationTitle, .applicationTitle:hover {
+    color: #ED213A;
+}
 
 
 

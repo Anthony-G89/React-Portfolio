@@ -148,7 +148,7 @@ section {
     transition: transform 0.5s ease;
 }
 
-.arrowBtn:hover {
+.workBtn:hover > .arrowBtn, .arrowBtn:hover {
     transform: rotate(90deg); 
 }
 
