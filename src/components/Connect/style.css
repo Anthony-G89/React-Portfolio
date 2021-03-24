@@ -87,19 +87,25 @@ a {
     list-style: none;
     display: inline-block;
     margin-left: 40px;
+    
 }
 
 .socialNetwork-Icon {
     list-style: none;
     width: 100px;
     height: 100px;
-    filter: drop-shadow(-21px 13px 8px) ;
-    transition: transform .3s ease-in-out;
+    /* filter: drop-shadow(-21px 13px 8px) ; */
+    box-shadow: -10px 21px 11px;
+    border-radius: 30%;
     cursor: pointer;
+    transition: transform .4s ease-in-out;
+    filter: grayscale(1);
+    
 }
 
 .socialNetwork-Icon:hover {
     transform: translateY(-10px);
+    filter: grayscale(0);
 }
 
 ul li {

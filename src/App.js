@@ -25,9 +25,9 @@ function App() {
 
   const [currentProject, setCurrentProject] = useState();
 
-  const openModal = (project) => { 
-     console.log(project);
-     setCurrentProject(project);
+  const openModal = (projectT) => { 
+     console.log(projectT);
+     setCurrentProject(projectT);
     setshowModal(true);
   };
 

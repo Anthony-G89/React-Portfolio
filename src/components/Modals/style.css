@@ -37,7 +37,7 @@
     justify-content: center;
     color: black;
     min-height: 8vh;
-    text-decoration: underline;
+    text-shadow: 10px 7px 13px;
 }
 .closeIcon {
     position: absolute;
@@ -45,7 +45,7 @@
     right: 16px;
 }
 .closeBtn {
-    font-size: 30px;
+    font-size: 34px;
     cursor: pointer;
 }
 .closeBtn:hover {
@@ -56,6 +56,53 @@
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
     min-width: 370px;
+    padding: 10px 10px;
+}
+
+.modalText {
+    min-width: 300px;
+    font-weight: 600;
+    text-shadow: 10px 7px 13px;
+    letter-spacing: 1px;
+    line-height: 32px ;
+}
+
+.modalFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 5rem;    
+}
+
+.links {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.links::before 
+ {
+    content: " ";
+    display: block;
+    position: absolute;
+    background: #ED213A; 
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  
+    background: linear-gradient(to right, #93291E, #ED213A); 
+    height: 3px;
+    width: 100%;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+    -webkit-box-reflect: below 4px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+.links::before {
+    top: 15px;
+    transform-origin: left;
+}
+.links:hover:before
+ {
+    transform: scaleX(1);
 }
 
 
