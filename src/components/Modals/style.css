@@ -39,6 +39,17 @@
     min-height: 8vh;
     text-shadow: 10px 7px 13px;
 }
+
+.description {
+    color: #ED213A;
+    text-decoration: underline;
+}
+
+.ModalPicture {
+    box-shadow: 9px 14px 8px rgb(0,0,0,0.6) ,-8px -6px 8px rgb(0,0,0,0.6);
+    padding: 20px;
+
+}
 .closeIcon {
     position: absolute;
     top: 0;
@@ -49,7 +60,7 @@
     cursor: pointer;
 }
 .closeBtn:hover {
-    color: red;
+    color: #ED213A;
 }
 
 .modalContent {
@@ -65,6 +76,27 @@
     text-shadow: 10px 7px 13px;
     letter-spacing: 1px;
     line-height: 32px ;
+    padding-bottom: 35px;
+}
+
+.usedLanguages {
+    font-family: 'Poppins', sans-serif;
+    color: #ED213A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    text-decoration: underline;
+    top: 3rem;
+    text-shadow: 10px 7px 13px rgb(84 60 60);
+
+}
+
+.languagesIcon {
+    text-align: center;
+    margin-top: 12px;
+    color: black;
 }
 
 .modalFooter {

@@ -27,7 +27,7 @@ function projects({ close, open, projectsItems }) {
                                     <a className="anchor"  >
                                         <p className="applicationTitle">{project.Title}</p>
                                         <img className="projectImage" src={`${process.env.PUBLIC_URL}${project.picture}`} alt={project.Title} />
-                                        <button onClick={() => { open(project) }} className="learnMoreBtn">Detail & More</button>
+                                        <button onClick={() => { open(project) }} className="learnMoreBtn">Details & More</button>
                                     </a>
                                 </li>
                             ))

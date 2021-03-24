@@ -94,7 +94,6 @@ a {
     list-style: none;
     width: 100px;
     height: 100px;
-    /* filter: drop-shadow(-21px 13px 8px) ; */
     box-shadow: -10px 21px 11px;
     border-radius: 30%;
     cursor: pointer;
