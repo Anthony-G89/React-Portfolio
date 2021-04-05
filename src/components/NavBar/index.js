@@ -4,7 +4,7 @@ import "./style.css";
 
 
 
-function NavBar({ show, slideNav, close,  }) {
+function NavBar({ show, slideNav, close, }) {
 
 
 

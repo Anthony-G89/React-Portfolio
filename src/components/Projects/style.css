@@ -112,9 +112,7 @@
     background: linear-gradient(to right, #93291E, #ED213A);
     color: rgb(255, 255, 255); 
     box-shadow: 7px 9px 16px rgba(0, 0, 0, 0.8);
-    border-radius: 8px;
-    transition: transform 0.7s ease-in-out;
-    
+    border-radius: 8px;    
 }
 
 
@@ -135,10 +133,12 @@
 }
 .anchor:hover > .learnMoreBtn, .learnMoreBtn:hover {
     display: block;
+
 }
 
 .anchor:hover > .applicationTitle, .applicationTitle:hover {
     color: #ED213A;
+
 }
 
 
