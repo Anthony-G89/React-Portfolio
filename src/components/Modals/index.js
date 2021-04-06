@@ -27,6 +27,7 @@ function Modals({ openModal, closeModals, currentProject }) {
                         <h3 className={"usedLanguages"}>Languages Used:<img className={"languagesIcon"} src={`${process.env.PUBLIC_URL}${currentProject.languages}`} style={{width: 100, height: 100}} ></img> </h3>
 
                         <div className="modalFooter">
+                            <h3 className={"linksTitle"}>Links</h3>
                             <a className={"links"} href={currentProject.GitHubLink} target={"_blank"}>GitHub Link </a>
                             <br />
                             <a className={"links"} href={currentProject.LinkToApplication} target={"_blank"}>Link To Application</a>

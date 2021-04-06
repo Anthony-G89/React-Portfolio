@@ -30,7 +30,6 @@
     overflow-y: auto;
     padding: 7px 10px;
     border-radius: 5px;
-
 }
 
 .modalHeader {
@@ -61,10 +60,12 @@
 .closeBtn {
     font-size: 34px;
     cursor: pointer;
+    text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.8);
 }
 .closeBtn:hover {
     color: #ED213A;
-}
+    text-shadow: 3px 4px 4px rgba(243, 27, 27, 0.849)
+  }
 
 .modalContent {
     font-family: 'Poppins', sans-serif;
@@ -111,11 +112,24 @@
     top: 5rem;    
 }
 
+.linksTitle {
+    font-family: 'Poppins', sans-serif;
+    color: #ED213A;
+    text-decoration: underline;
+    text-shadow: 10px 7px 13px rgb(84 60 60);
+    margin: 40px 0px;
+
+}
+
 .links {
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
     position: relative;
+    text-shadow: 10px 7px 11px rgba(0,0,0,0.6);
+    padding-bottom: 10px;
 }
+
+
 
 .links::before 
  {
