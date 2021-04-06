@@ -100,9 +100,10 @@
     transform: rotate3d(1, 1, 1, 45deg);
     border-radius: 5px;
     position: relative;
+    animation:spin 3s linear infinite;
 }
 
-
+@keyframes spin { 50% { transform:rotate(360deg) } }
 
 /* Media Queries */
 
@@ -135,6 +136,13 @@
     }
     .resumeBtn {
         top: 37rem;
+    }
+}
+
+/* Added this for animation would stop once screen got smaller than 990px */
+@media screen and (max-width: 991px) {
+    .aboutMePicture {
+        animation: none;
     }
 }
 
