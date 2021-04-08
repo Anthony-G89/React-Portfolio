@@ -16,7 +16,7 @@ function App() {
   // State that controls hamburger menu on Mobile
   const [ShowSlide, setShowSlide] = useState(false);
   const closeSlideNav = () => setShowSlide(false);
-  
+
 
 
   //  State that controls the Modals
@@ -25,14 +25,14 @@ function App() {
 
   const [currentProject, setCurrentProject] = useState();
 
-  const openModal = (projectT) => { 
-     console.log(projectT);
-     setCurrentProject(projectT);
+  const openModal = (projectT) => {
+    console.log(projectT);
+    setCurrentProject(projectT);
     setshowModal(true);
   };
 
-    
- 
+
+
 
 
   return (
@@ -44,28 +44,22 @@ function App() {
         slideNav={setShowSlide}
         close={closeSlideNav}
       />
-
       <Home
-        close={closeSlideNav} />
-
-         <Modal 
-         closeModals={closeModal}
-         openModal={showModal}
-         currentProject={currentProject}
-          />
-        
-     
-
+        close={closeSlideNav} 
+        />
+      <Modal
+        closeModals={closeModal}
+        openModal={showModal}
+        currentProject={currentProject}
+      />
       <Projects
         close={closeSlideNav}
         open={openModal}
         projectsItems={ProjectDetail}
-
-        />
-
+      />
       <AboutMe
-        close={closeSlideNav} />
-
+        close={closeSlideNav} 
+        />
       <Connect
         close={closeSlideNav}
       />

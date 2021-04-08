@@ -83,24 +83,41 @@
     padding-bottom: 35px;
 }
 
+
+
 .usedLanguages {
     font-family: 'Poppins', sans-serif;
     color: #ED213A;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; */
     position: relative;
     text-decoration: underline;
-    top: 3rem;
+    top: 5rem;
     text-shadow: 10px 7px 13px rgb(84 60 60);
 
 }
 
+.iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 6rem;
+}
+
 .languagesIcon {
+    width: 100px;
+    height: 100px;
     text-align: center;
-    margin-top: 12px;
+    margin-top: 15px;
+    margin: 24px 19px;
     color: black;
+   background-color: rgb(224 221 221);
+   border-radius: 8px;
+   box-shadow: 10px 14px 13px rgba(0, 0, 0, 0.7);
+
 }
 
 .modalFooter {
@@ -109,7 +126,7 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    top: 5rem;    
+    top: 8rem;    
 }
 
 .linksTitle {
@@ -178,6 +195,29 @@
         width: 80%;
     }
 }
+/* Icons for each project in the Modal */
+@media screen and (min-width:565px) and (max-width:686px) {
+    .languagesIcon {
+        width: 75px;
+        height: 75px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:564px) {
+    .languagesIcon {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .languagesIcon {
+        width: 60px;
+        height: 60px;
+        margin: 24px 16px;
+    }
+}
+
+
 
 @media screen and (min-width:500px) and (max-width:559px) {
     .modal-box {

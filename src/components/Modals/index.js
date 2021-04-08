@@ -24,7 +24,23 @@ function Modals({ openModal, closeModals, currentProject }) {
 
                             <img className={"ModalPicture"} src={`${process.env.PUBLIC_URL}${currentProject.modalPicture}`} alt={currentProject.Title} style={{ width: "100%", height: "100%" }}></img>
                         </div>
-                        <h3 className={"usedLanguages"}>Languages Used:<img className={"languagesIcon"} src={`${process.env.PUBLIC_URL}${currentProject.languages}`} style={{width: 100, height: 100}} ></img> </h3>
+
+                        <div className={"languageContainer"}>
+                            <h3 className={"usedLanguages"}>Languages Used:</h3>
+                            <div className={"iconContainer"}>
+                                <img className={"languagesIcon"} src={`${process.env.PUBLIC_URL}${currentProject.reactLanguages}`} title={"React.js"} >
+                                </img>
+
+                                <img className={"languagesIcon"} src={`${process.env.PUBLIC_URL}${currentProject.htmlLanguages}`} title={"HTML 5"} >
+                                </img>
+
+                                <img className={"languagesIcon"} src={`${process.env.PUBLIC_URL}${currentProject.cssLanguages}`} title={"CSS 3"} >
+                                </img>
+
+                                <img className={"languagesIcon"} src={`${process.env.PUBLIC_URL}${currentProject.javascriptLanguages}`} title={"JavaScript"} >
+                                </img>
+                            </div>
+                        </div>
 
                         <div className="modalFooter">
                             <h3 className={"linksTitle"}>Links</h3>
