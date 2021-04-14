@@ -7,16 +7,17 @@ import "./style.css";
 
 
 
-function Modals({ openModal, closeModals, currentProject }) {
+function Modals({ openModal, closeModals, currentProject, projectsItems }) {
 
-    // if("/React-Portfolioundefined") {
-    //  var test = document.querySelector(".ReactIcon");
-    //  test.style.display = "none";
-    // }
 
-    // for ( var i = 0; i < currentProject.Languages.length; i ++) {
-    //     console.log(currentProject.Languages[i]);
-    // }
+
+    for (var i = 0; i < projectsItems.length; i++) {
+        console.log(projectsItems[i].Languages);
+
+      var icons =   <img className={"languagesIcon"} src={`${process.env.PUBLIC_URL}${projectsItems[i].Languages}`} ></img> 
+      
+    }
+
 
     return (
         <div>
@@ -25,7 +26,7 @@ function Modals({ openModal, closeModals, currentProject }) {
                     <div className="modal-box">
 
                         <div className="modalHeader"><h1>{currentProject.Title}</h1></div>
-                        {/* <h3 className="description">Description</h3> */}
+
                         <div className="closeIcon"><span onClick={closeModals} className="closeBtn">&times;</span></div>
 
                         <div className="modalContent">
@@ -41,8 +42,10 @@ function Modals({ openModal, closeModals, currentProject }) {
                                 {/* <img className={"languagesIcon ReactIcon"} src={`${process.env.PUBLIC_URL}${currentProject.reactLanguages}`} title={"React.js"} >
                                 </img> */}
 
-                                <img className={"languagesIcon"} src={`${process.env.PUBLIC_URL}${currentProject.Languages}`} title={"HTML 5"} >
-                                </img>
+                                    
+                                   {icons}
+                                {/* { <img className={"languagesIcon"} src={`${process.env.PUBLIC_URL}${projectsItems.Languages}`} ></img>} */}
+
 
                                 {/* <img className={"languagesIcon"} src={`${process.env.PUBLIC_URL}${currentProject.cssLanguages}`} title={"CSS 3"} >
                                 </img> */}

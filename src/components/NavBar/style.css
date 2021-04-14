@@ -61,6 +61,7 @@ nav {
 .logo {
     font-family: 'Permanent Marker', cursive;
     font-size: 2.5rem;
+    text-shadow: -1px 5px 10px rgba(0, 0, 0, 0.6);
 }
 
 nav ul {
@@ -82,6 +83,7 @@ a:hover {
     text-transform: uppercase;
     color: black;
     letter-spacing: 2px;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
     position: relative;
 }
 

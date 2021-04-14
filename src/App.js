@@ -26,7 +26,7 @@ function App() {
   const [currentProject, setCurrentProject] = useState();
 
   const openModal = (projectT) => {
-    console.log(projectT);
+    // console.log(projectT);
     setCurrentProject(projectT);
     setshowModal(true);
   };
@@ -51,6 +51,7 @@ function App() {
         closeModals={closeModal}
         openModal={showModal}
         currentProject={currentProject}
+        projectsItems={ProjectDetail}
       />
       <Projects
         close={closeSlideNav}
