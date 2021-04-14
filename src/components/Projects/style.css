@@ -37,7 +37,7 @@
     font-size: 22px;
     top: 25rem;  
     font-family: 'Poppins', sans-serif;
-    text-shadow: 3px 4px 10px rgba(0, 0, 0, 0.8);
+    text-shadow: 3px 4px 10px rgba(0, 0, 0, 0.6);
     letter-spacing: 1px;
     font-weight: bold;
 
@@ -57,8 +57,8 @@
 .projectContainers {
     list-style: none;
     display: inline-block;
-    -webkit-filter: brightness(0.4);
-    filter: brightness(0.4);
+    -webkit-filter: brightness(0.6);
+    filter: brightness(0.5);
     
 }
 
@@ -107,10 +107,10 @@
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
-    background: #ED213A;  
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A); 
-    background: linear-gradient(to right, #93291E, #ED213A);
-    color: rgb(255, 255, 255); 
+    background: white;  
+    /* background: -webkit-linear-gradient(to right, #93291E, #ED213A); 
+    background: linear-gradient(to right, #93291E, #ED213A); */
+    color: black; 
     box-shadow: 7px 9px 16px rgba(0, 0, 0, 0.8);
     border-radius: 8px;    
 }
@@ -123,7 +123,7 @@
     height: 15rem;
     margin: 15px;
     border-radius: 10px;
-    box-shadow: 10px 14px 20px rgba(0, 0, 0, 0.7), 14px 15px 18px rgba(0, 0, 0, 0.7);
+    box-shadow: 10px 14px 20px rgba(0, 0, 0, 0.4), 14px 15px 18px rgba(0, 0, 0, 0.4);
     transition: transform 0.4s ease;
     cursor: default;
 }
@@ -137,7 +137,7 @@
 }
 
 .anchor:hover > .applicationTitle, .applicationTitle:hover {
-    color: #ED213A;
+    color: white;
 
 }
 

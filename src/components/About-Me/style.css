@@ -50,7 +50,7 @@
 .textAboutMe {
     min-width: 300px;
     max-width: 500px;
-    text-shadow: 10px 4px 11px rgba(0, 0, 0, 0.8);
+    text-shadow: 10px 5px 11px rgba(0, 0, 0, 0.6);
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 1px;
@@ -72,7 +72,7 @@
     text-transform: uppercase;
     background-color: #e3eaec;
     padding: .3rem 4rem;
-    filter: drop-shadow(15px 21px 16px black);
+    filter: drop-shadow(15px 21px 16px rgba(0, 0, 0, 0.5));
     color: rgb(7, 7, 7);
     transition: transform .3s ease-in;
 }
@@ -96,7 +96,7 @@
     min-width: 43%;
     min-height: 429px;
     transform: rotate(11deg);
-    filter: drop-shadow(41px 46px 21px rgba(0,0,0,0.8));
+    filter: drop-shadow(41px 46px 21px rgba(0,0,0,0.5));
     transform: rotate3d(1, 1, 1, 45deg);
     border-radius: 5px;
     position: relative;
