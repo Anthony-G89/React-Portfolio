@@ -36,6 +36,7 @@
     display: flex;
     justify-content: center;
     color: black;
+    text-decoration: underline;
     min-height: 8vh;
     text-shadow: 10px 7px 13px rgba(0, 0, 0, 0.6);
 }
@@ -147,7 +148,6 @@
 }
 
 .links:hover {
-    transform: translateY(-4px);
     background-color: #83b9e4;
     color: white;
     text-decoration: underline;
