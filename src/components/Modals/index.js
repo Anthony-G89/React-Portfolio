@@ -11,19 +11,23 @@ function Modals({ openModal, closeModals, currentProject, projectsItems }) {
 
 
 
-    for (var i = 0; i < projectsItems.length; i++) {
-        console.log(projectsItems[i].Languages);
+    // for (var i = 0; i < projectsItems.length; i++) {
+    //     console.log(projectsItems[i].Languages);
 
-      var icons =   <img className={"languagesIcon"} src={`${process.env.PUBLIC_URL}${projectsItems[i].Languages}`} ></img> 
+    //   var icons =   <img className={"languagesIcon"} src={`${process.env.PUBLIC_URL}${projectsItems[i].Languages}`} ></img> 
       
-    }
+    // }
+
+
+
+
 
 
     return (
         <div>
             {openModal ? <div className="modal-wrapper">
                 <div onClick={closeModals} className="modal-background">
-                    <div onClick={openModal} className="modal-box">
+                    <div className="modal-box">
 
                         <div className="modalHeader"><h1>{currentProject.Title}</h1></div>
 
@@ -42,8 +46,14 @@ function Modals({ openModal, closeModals, currentProject, projectsItems }) {
                                 {/* <img className={"languagesIcon ReactIcon"} src={`${process.env.PUBLIC_URL}${currentProject.reactLanguages}`} title={"React.js"} >
                                 </img> */}
 
+                                        {projectsItems.forEach(project => (
+                                            // console.log(project.Languages)
+                                            <li key={project.id}>
+                                            <img src={`${process.env.PUBLIC_URL}${project.Languages}`} alt={project.Languages} />
+                                            </li>
+                                        ))}
                                     
-                                   {icons}
+                                   {/* {icons} */}
                                 {/* { <img className={"languagesIcon"} src={`${process.env.PUBLIC_URL}${projectsItems.Languages}`} ></img>} */}
 
 
