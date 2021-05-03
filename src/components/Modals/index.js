@@ -23,7 +23,7 @@ function Modals({ openModal, closeModals, currentProject, projectsItems }) {
         <div>
             {openModal ? <div className="modal-wrapper">
                 <div onClick={closeModals} className="modal-background">
-                    <div className="modal-box">
+                    <div onClick={openModal} className="modal-box">
 
                         <div className="modalHeader"><h1>{currentProject.Title}</h1></div>
 
