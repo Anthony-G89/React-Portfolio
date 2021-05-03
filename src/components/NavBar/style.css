@@ -45,6 +45,21 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
+    
+}
+
+.xBtn {
+    position: fixed;
+    z-index: 5;
+    top: 15px;
+    right: 45px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    color: #ED213A;;
 }
 
 .line {

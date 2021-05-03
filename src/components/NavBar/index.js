@@ -24,7 +24,7 @@ function NavBar({ show, slideNav, close, }) {
                         <li onClick={close} className={"nav-item"}><a className={"navBar-Links"} href="#connectSection">Connect</a></li>
                     </ul>
 
-                    <img onClick={() => slideNav(!show)} className={"closeBtn"} alt={"close button"} src={closeBtn} style={{ display: !show ? "none" : null }} />
+                    <img onClick={() => slideNav(!show)} className={"xBtn"} alt={"close button"} src={closeBtn} style={{ display: !show ? "none" : null }} />
 
                     <div onClick={() => slideNav(!show)} className={"hamburger-menu"}
                         style={{ display: show ? "none" : null }} >

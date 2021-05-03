@@ -38,6 +38,7 @@
     color: black;
     text-decoration: underline;
     min-height: 8vh;
+    margin-top: 25px;
     text-shadow: 10px 7px 13px rgba(0, 0, 0, 0.6);
 }
 
@@ -52,8 +53,9 @@
 }
 .closeIcon {
     position: absolute;
-    top: 0;
+    top: -7px;
     right: 16px;
+    z-index: 1 ;
 }
 .closeBtn {
     font-size: 34px;
@@ -206,6 +208,10 @@
     .languagesIcon {
         width: 60px;
         height: 60px;
+    }
+    .closeIcon {
+        top: -12px;
+        right: 6px;
     }
 }
 
