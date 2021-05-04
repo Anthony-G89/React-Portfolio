@@ -10,8 +10,6 @@ function NavBar({ show, slideNav, close, }) {
 
     return (
 
-
-
         <div>
             <header>
                 <nav>
@@ -32,9 +30,6 @@ function NavBar({ show, slideNav, close, }) {
                         <div className={"line line-2"}></div>
                         <div className={"line line-3"}></div>
                     </div>
-
-
-
                 </nav>
             </header>
         </div>

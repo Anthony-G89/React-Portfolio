@@ -7,7 +7,7 @@ import "./style.css";
 
 
 
-function Modals({ openModal, closeModals, currentProject, projectsItems }) {
+function Modals({ openModal, closeModals, currentProject }) {
 
 
 
@@ -15,7 +15,7 @@ function Modals({ openModal, closeModals, currentProject, projectsItems }) {
     //     console.log(projectsItems[i].Languages);
 
     //   var icons =   <img className={"languagesIcon"} src={`${process.env.PUBLIC_URL}${projectsItems[i].Languages}`} ></img> 
-      
+
     // }
 
 
@@ -42,26 +42,14 @@ function Modals({ openModal, closeModals, currentProject, projectsItems }) {
 
                         <div className={"languageContainer"}>
                             <h3 className={"usedLanguages"}>Languages Used:</h3>
+
                             <div className={"iconContainer"}>
-                                {/* <img className={"languagesIcon ReactIcon"} src={`${process.env.PUBLIC_URL}${currentProject.reactLanguages}`} title={"React.js"} >
-                                </img> */}
 
-                                        {projectsItems.forEach(project => (
-                                            // console.log(project.Languages)
-                                            <li key={project.id}>
-                                            <img src={`${process.env.PUBLIC_URL}${project.Languages}`} alt={project.Languages} />
-                                            </li>
-                                        ))}
-                                    
-                                   {/* {icons} */}
-                                {/* { <img className={"languagesIcon"} src={`${process.env.PUBLIC_URL}${projectsItems.Languages}`} ></img>} */}
-
-
-                                {/* <img className={"languagesIcon"} src={`${process.env.PUBLIC_URL}${currentProject.cssLanguages}`} title={"CSS 3"} >
-                                </img> */}
-
-                                {/* <img className={"languagesIcon"} src={`${process.env.PUBLIC_URL}${currentProject.javascriptLanguages}`} title={"JavaScript"} >
-                                </img> */}
+                                {
+                                    currentProject.Languages.map((language, index) => (
+                                        <img key={index} src={`${process.env.PUBLIC_URL}${language}`} className={"languagesIcon"} alt={language} />
+                                    ))
+                                }
                             </div>
                         </div>
 

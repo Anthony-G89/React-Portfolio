@@ -51,7 +51,6 @@ function App() {
         closeModals={closeModal}
         openModal={showModal}
         currentProject={currentProject}
-        projectsItems={ProjectDetail}
       />
       <Projects
         close={closeSlideNav}
