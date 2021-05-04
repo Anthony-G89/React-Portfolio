@@ -56,9 +56,9 @@ section {
     font-family: 'Akaya Kanadaka', cursive;
     font-weight: bolder;
     position: relative;
-    background: #ED213A;  
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  
-    background: linear-gradient(to right, #93291E, #ED213A); 
+    background: #83b9e4; 
+    background: -webkit-linear-gradient(to right, #83b9e4, #3390db);  
+    background: linear-gradient(to right, #83b9e4, #3390db);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline;
@@ -105,9 +105,9 @@ section {
 
 .workTitle,
 .Typewriter__wrapper {
-    background: #ED213A; 
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  
-    background: linear-gradient(to right, #93291E, #ED213A); 
+    background: #499ce0; 
+    background: -webkit-linear-gradient(to right, #499ce0, #1883db);  
+    background: linear-gradient(to right, #499ce0, #1883db);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline;
@@ -139,9 +139,9 @@ section {
    
 }
 .workBtn:hover {
-    background: #ED213A;  
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  
-    background: linear-gradient(to right, #93291E, #ED213A); 
+    background: #499ce0; 
+    background: -webkit-linear-gradient(to right, #499ce0, #1883db);  
+    background: linear-gradient(to right, #499ce0, #1883db);
     color: white;
     transform: translateY(4px);
 }
