@@ -154,17 +154,17 @@
         position: relative;
         filter: none;
         transform: none;
-        bottom: 22rem;
+        bottom: 25rem;
         box-shadow: 21px 28px 21px;
     }
     .textAboutMe {
-        top: 22rem;
+        top: 19rem;
         left: 0rem;
         font-size: 17px;
         line-height: 25px;
     }
     .resumeBtn {
-        top: 37rem;
+        top: 34rem;
     }
     
     
