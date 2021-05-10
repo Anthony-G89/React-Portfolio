@@ -12,7 +12,6 @@ import Github from "../../images/Github-Icon.png";
 function Connection({show}) {
 
 
-
     return (
         <div>
             <span id="connectSection">
@@ -24,7 +23,7 @@ function Connection({show}) {
                         </div>
                         <div className="col-lg-6 connect-col ">
                             <p className="textConnectSection">
-                                If you want to work on a project together, find out more about a project, or just chat. Don't hesitate. Just click on the links below.
+                                If you would like to work on a project together or find out more details about a project, don't hesitate. Just click on the links below.
                                 </p>
                             <ul className="socialNetworkContainer">
                                 <li className="liTagsForConnect">

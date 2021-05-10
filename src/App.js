@@ -37,8 +37,6 @@ function App() {
 
   return (
     <div className="applicationContainer">
-
-
       <NavBar
         show={ShowSlide}
         slideNav={setShowSlide}
@@ -63,8 +61,6 @@ function App() {
       <Connect
         close={closeSlideNav}
       />
-
-
     </div>
   );
 

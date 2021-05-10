@@ -29,9 +29,9 @@
     display: block;
     position: absolute;
     bottom: -27px;
-    background: #ED213A; 
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  
-    background: linear-gradient(to right, #93291E, #ED213A); 
+    background: #499ce0; 
+    background: -webkit-linear-gradient(to right, #499ce0, #1883db);  
+    background: linear-gradient(to right, #499ce0, #1883db); 
     height: 3px;
     width: 21rem;
 }
@@ -78,9 +78,9 @@
 }
 
 .resumeBtn:hover {
-    background: #ED213A;  
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A); 
-    background: linear-gradient(to right, #93291E, #ED213A);
+    background: #499ce0; 
+    background: -webkit-linear-gradient(to right, #499ce0, #1883db);  
+    background: linear-gradient(to right, #499ce0, #1883db);
     color: white;
     transform: translateY(4px);
 }

@@ -10,19 +10,6 @@ import "./style.css";
 function Modals({ openModal, closeModals, currentProject }) {
 
 
-
-    // for (var i = 0; i < projectsItems.length; i++) {
-    //     console.log(projectsItems[i].Languages);
-
-    //   var icons =   <img className={"languagesIcon"} src={`${process.env.PUBLIC_URL}${projectsItems[i].Languages}`} ></img> 
-
-    // }
-
-
-
-
-
-
     return (
         <div>
             {openModal ? <div className="modal-wrapper">
@@ -30,23 +17,19 @@ function Modals({ openModal, closeModals, currentProject }) {
                     <div className="modal-box">
 
                         <div className="modalHeader"><h1>{currentProject.Title}</h1></div>
-
                         <div className="closeIcon"><span onClick={closeModals} className="closeBtn">&times;</span></div>
 
                         <div className="modalContent">
-
                             <p className={"modalText"}> {currentProject.Description}</p>
-
                             <img className={"ModalPicture"} src={`${process.env.PUBLIC_URL}${currentProject.modalPicture}`} alt={currentProject.Title} ></img>
                         </div>
 
                         <div className={"languageContainer"}>
                             <h3 className={"usedLanguages"}>Languages Used:</h3>
-
                             <div className={"iconContainer"}>
-
                                 {
                                     currentProject.Languages.map((language, index) => (
+                                        // console.log(language)
                                         <img key={index} src={`${process.env.PUBLIC_URL}${language}`} className={"languagesIcon"} alt={language} />
                                     ))
                                 }
