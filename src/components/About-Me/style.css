@@ -148,7 +148,7 @@
 
 @media screen and (max-width:847px) {
     .aboutMe {
-        top: 93rem;
+        top: 106rem;
     }
     .aboutMePicture {
         position: relative;
@@ -215,12 +215,12 @@
         top: 127rem;
     }
     .aboutMePicture {
-      bottom: 32rem;
+      bottom: 30rem;
       box-shadow: 12px 13px 20px black;
       filter: none;
     }
     .textAboutMe {
-        top: 15rem;   
+        top: 16rem;   
     }
     .resumeBtn {
         top: 34rem;
