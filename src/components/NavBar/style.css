@@ -162,13 +162,14 @@ a:hover {
 @media screen and (max-width:760px) {
     .hamburger-menu {
         display: flex;
+        top: 13px;
     }
 
     .nav-links {
         position: absolute;
         right: 0;
         height: 100vh;
-        top: 10vh;
+        top: 13vh;
         background: -webkit-linear-gradient(to right, #589dd5, #63b1f0);  
         background: linear-gradient(to right, #589dd5, #63b1f0);
         z-index: 3;
