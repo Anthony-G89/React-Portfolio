@@ -1,10 +1,12 @@
 # MY PORTFOLIO
 
-[![License: Apache](https://img.shields.io/badge/License-Apache-blue.svg)](#license)
 
 ## Description
 ```
-This is my portfolio that I built with React.js. All my components are a functional component, I used bootstrap for some positioning as (col-lg-6). I did my own styling as well as my Javascript. The only outside source that I used was Typewriter-effect.
+This is my portfolio that I built with React.js. All my components are a functional component, I 
+used bootstrap for some positioning as (col-lg-6). 
+I did my own styling as well as my Javascript. 
+The only outside source that I used was Typewriter-effect.
 ```
 
 ## Table of Contents
@@ -19,11 +21,13 @@ This is my portfolio that I built with React.js. All my components are a functio
 
 
 ## Contributing
+```
+ANTHONY GUERRERO
+```
 
-Anthony Guerrero
+## License
+[![License: Apache](https://img.shields.io/badge/License-Apache-blue.svg)](#license)
 
-## [License] (#license)
- Apache
 
  ## Tests
  ```
