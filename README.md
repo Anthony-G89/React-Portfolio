@@ -10,17 +10,33 @@ The only outside source that I used was Typewriter-effect.
 ```
 
 ## Table of Contents
-
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Contributing](#Contributing)
+* [Test](#Test)
 
 
 ## Installation
+```
+yarn start
+or
+npm start
+Also if you dont have Typewriter-effect saved you will
+need to npm i Typewriter-effect before starting project
+```
 
 
 
 ## Usage
 
+![home](./src/images/myPortfolio-2021.png)
 
-## Contributing
+
+
+## Credits
 ```
 ANTHONY GUERRERO
 ```
@@ -28,6 +44,10 @@ ANTHONY GUERRERO
 ## License
 [![License: Apache](https://img.shields.io/badge/License-Apache-blue.svg)](#license)
 
+## Contributing
+```
+N/A
+```
 
  ## Tests
  ```
@@ -37,4 +57,4 @@ ANTHONY GUERRERO
 
  ![https://avatars2.githubusercontent.com/u/58190322?v=4](https://avatars2.githubusercontent.com/u/58190322?v=4)
 
- If you have any questions about the repo, or any issue you can contact me at [Anthony Guerrero](https://github.com/knuckleh3ad89) directly.
+ If you have any questions about the project, repo, or any issue you can contact me at [Anthony Guerrero](https://github.com/knuckleh3ad89) directly.
