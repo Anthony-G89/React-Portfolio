@@ -188,7 +188,9 @@ a:hover {
 
     }
     .nav-item {
-       margin: 45px; 
+        position: relative;
+        bottom: 28px;
+       margin: 40px; 
        opacity: 1;
     }
 
