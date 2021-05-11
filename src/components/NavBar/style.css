@@ -172,7 +172,7 @@ a:hover {
         position: absolute;
         right: 0;
         height: 100vh;
-        top: 13vh;
+        top: 61px;
         background: -webkit-linear-gradient(to right, #589dd5, #63b1f0);  
         background: linear-gradient(to right, #589dd5, #63b1f0);
         z-index: 3;
