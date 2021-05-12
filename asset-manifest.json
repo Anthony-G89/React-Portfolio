@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.c0d46587.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.a6f3447a.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.a6f3447a.chunk.js.map",
-    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.7c2ed3d7.js",
-    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.7c2ed3d7.js.map",
-    "static/js/2.4d6e942e.chunk.js": "/React-Portfolio/static/js/2.4d6e942e.chunk.js",
-    "static/js/2.4d6e942e.chunk.js.map": "/React-Portfolio/static/js/2.4d6e942e.chunk.js.map",
-    "index.html": "/React-Portfolio/index.html",
-    "static/css/main.c0d46587.chunk.css.map": "/React-Portfolio/static/css/main.c0d46587.chunk.css.map",
-    "static/js/2.4d6e942e.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.4d6e942e.chunk.js.LICENSE.txt",
-    "static/media/About-Me-Section-Picture.6db5e158.png": "/React-Portfolio/static/media/About-Me-Section-Picture.6db5e158.png",
-    "static/media/Connect-Section-Media-Pic (1).dc33021c.png": "/React-Portfolio/static/media/Connect-Section-Media-Pic (1).dc33021c.png",
-    "static/media/Github-Icon.1767aa3c.png": "/React-Portfolio/static/media/Github-Icon.1767aa3c.png",
-    "static/media/LinkedIn-Icon.1839469b.png": "/React-Portfolio/static/media/LinkedIn-Icon.1839469b.png",
-    "static/media/Profile Pic 2020 (3).fadde65f.jpg": "/React-Portfolio/static/media/Profile Pic 2020 (3).fadde65f.jpg"
+    "main.css": "/static/css/main.c0d46587.chunk.css",
+    "main.js": "/static/js/main.8da92904.chunk.js",
+    "main.js.map": "/static/js/main.8da92904.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dd11e37f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dd11e37f.js.map",
+    "static/js/2.4d6e942e.chunk.js": "/static/js/2.4d6e942e.chunk.js",
+    "static/js/2.4d6e942e.chunk.js.map": "/static/js/2.4d6e942e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c0d46587.chunk.css.map": "/static/css/main.c0d46587.chunk.css.map",
+    "static/js/2.4d6e942e.chunk.js.LICENSE.txt": "/static/js/2.4d6e942e.chunk.js.LICENSE.txt",
+    "static/media/About-Me-Section-Picture.6db5e158.png": "/static/media/About-Me-Section-Picture.6db5e158.png",
+    "static/media/Connect-Section-Media-Pic (1).dc33021c.png": "/static/media/Connect-Section-Media-Pic (1).dc33021c.png",
+    "static/media/Github-Icon.1767aa3c.png": "/static/media/Github-Icon.1767aa3c.png",
+    "static/media/LinkedIn-Icon.1839469b.png": "/static/media/LinkedIn-Icon.1839469b.png",
+    "static/media/Profile Pic 2020 (3).fadde65f.jpg": "/static/media/Profile Pic 2020 (3).fadde65f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7c2ed3d7.js",
+    "static/js/runtime-main.dd11e37f.js",
     "static/js/2.4d6e942e.chunk.js",
     "static/css/main.c0d46587.chunk.css",
-    "static/js/main.a6f3447a.chunk.js"
+    "static/js/main.8da92904.chunk.js"
   ]
 }
