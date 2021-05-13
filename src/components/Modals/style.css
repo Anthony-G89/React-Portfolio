@@ -60,12 +60,9 @@
 .closeBtn {
     font-size: 34px;
     cursor: pointer;
-    text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.6);
-}
-.closeBtn:hover {
     color: #ED213A;
     text-shadow: 3px 4px 4px rgba(243, 27, 27, 0.849)
-  }
+}
 
 .modalContent {
     font-family: 'Poppins', sans-serif;
