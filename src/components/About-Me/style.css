@@ -50,7 +50,7 @@
 .textAboutMe {
     min-width: 300px;
     max-width: 500px;
-    text-shadow: 10px 5px 11px rgba(0, 0, 0, 0.6);
+    text-shadow: 10px 5px 11px rgba(0, 0, 0, 0.3);
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 1px;
@@ -72,7 +72,7 @@
     text-transform: uppercase;
     background-color: #e3eaec;
     padding: .3rem 4rem;
-    filter: drop-shadow(15px 21px 16px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(15px 21px 16px rgba(0, 0, 0, 0.3));
     color: rgb(7, 7, 7);
     transition: transform .3s ease-in;
 }
@@ -96,7 +96,7 @@
     min-width: 43%;
     min-height: 429px;
     transform: rotate(11deg);
-    filter: drop-shadow(41px 46px 21px rgba(0,0,0,0.5));
+    filter: drop-shadow(41px 46px 21px rgba(0,0,0,0.3));
     transform: rotate3d(1, 1, 1, 45deg);
     border-radius: 5px;
     position: relative;
@@ -216,7 +216,7 @@
     }
     .aboutMePicture {
       bottom: 30rem;
-      box-shadow: 12px 13px 20px black;
+      box-shadow: 12px 13px 10px rgba(0, 0, 0, 0.3);
       filter: none;
     }
     .textAboutMe {
