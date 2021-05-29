@@ -10,7 +10,7 @@ import "./style.css";
 
 function aboutMe({ close }) {
 
-    
+
 
     return (
         <span id="aboutMESection">
@@ -20,10 +20,10 @@ function aboutMe({ close }) {
 
                 <div className="row aboutMeRow">
                     <div className="col-lg-6 aboutMeSection">
-                        <p className="textAboutMe">I'm a driven Full Stack Developer who loves to code and learn new Libraries and frameworks. I completed over 600 hours at UCF Coding Boot Camp. I'm Fast learner, hard worker, can adapt to any changes, and a team player who is proficient in an array of programming languages. On my free time, I like to go to the gym, play Fifa, and watch soccer or football.
+                        <p className="textAboutMe">Hello young Padawan. Anthony is a driven Full Stack Developer who loves to code, learn new Libraries and frameworks. He has completed over 600 hours at UCF Coding Boot Camp - and continues to work and improve his skills daily. He is a hard worker and fast learner that can adapt to any changes. When he's not busy coding, he burns some energy at the gym or plays video games. Let's also not forget his favorites, soccer and football. Basically, he rocks and you would be lucky to work with him. May the Force be with you.
                         </p>
                         <a className="resumeBtn" href={"https://drive.google.com/file/d/1HC_s9nSZEGCJtWkngBz8-oP2W5Jho9vz/view?usp=sharing"} target="_blank" >My Resume
-                        <img className="resumeIcon" src={"https://img.icons8.com/office/40/000000/open-resume.png"} alt={"Icon picture of a resume"} />
+                            <img className="resumeIcon" src={"https://img.icons8.com/office/40/000000/open-resume.png"} alt={"Icon picture of a resume"} />
                         </a>
 
                     </div>

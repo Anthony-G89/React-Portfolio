@@ -58,9 +58,10 @@
     position: relative;
 }
 
+
 .resumeBtn {
     position: absolute;
-    top: 18rem;
+    bottom: -15px;
     width: 17rem;
     min-width: 10rem;
     font-size: 21px;
@@ -125,17 +126,17 @@
         position: relative;
         filter: none;
         transform: none;
-        bottom: 22rem;
-        box-shadow: 21px 28px 21px;
+        bottom: 29rem;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     }
     .textAboutMe {
-        top: 22rem;
+        top: 18rem;
         left: 0rem;
         font-size: 17px;
         line-height: 25px;
     }
     .resumeBtn {
-        top: 37rem;
+        bottom: -18em;
     }
 }
 
@@ -154,17 +155,17 @@
         position: relative;
         filter: none;
         transform: none;
-        bottom: 25rem;
-        box-shadow: 21px 28px 21px;
+        bottom: 29rem;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     }
     .textAboutMe {
-        top: 19rem;
+        top: 17rem;
         left: 0rem;
         font-size: 17px;
         line-height: 25px;
     }
     .resumeBtn {
-        top: 34rem;
+        bottom: -17em;
     }
     
     
@@ -183,13 +184,12 @@
     }
     .aboutMePicture {
         min-width: 315px;
-        bottom: 26rem;
     }
     .textAboutMe {
         top: 16rem;
     }
     .resumeBtn {
-        top: 31rem;
+        bottom: -16em;
     }
 }
 
@@ -199,31 +199,30 @@
       }
       .aboutMePicture {
         min-width: 315px;
-        bottom: 26rem;
     }
     .textAboutMe {
         top: 19rem;
     }
     .resumeBtn {
-        top: 35rem;
+        bottom: -18em;
     }
 }
 
 /*  Mobile Styling */
-@media screen and (max-width:499px) {
+@media screen and (min-width:350px) and (max-width:499px) {
     .aboutMe {
         top: 127rem;
     }
     .aboutMePicture {
-      bottom: 30rem;
-      box-shadow: 12px 13px 10px rgba(0, 0, 0, 0.3);
+      bottom: 39rem;
+      box-shadow: 12px 13px 10px rgba(0, 0, 0, 0.2);
       filter: none;
     }
     .textAboutMe {
-        top: 16rem;   
+        top: 17rem;   
     }
     .resumeBtn {
-        top: 34rem;
+        bottom: -17em;
     }
 }
 

@@ -23,7 +23,7 @@ function Connection({show}) {
                         </div>
                         <div className="col-lg-6 connect-col ">
                             <p className="textConnectSection">
-                                If you would like to work on a project together or find out more details about a project, don't hesitate. Just click on the links below.
+                                If you would like to work on a project together or discuss Star Wars, don't hesitate to say 👋. Just click on the links below to connect.
                                 </p>
                             <ul className="socialNetworkContainer">
                                 <li className="liTagsForConnect">

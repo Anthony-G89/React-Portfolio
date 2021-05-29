@@ -159,13 +159,12 @@ a:hover {
 
 
 /* Displaying hamburger menu and hidding li (nav-links) when screen gets smaller than 760pxs */
-@media screen and (min-width:490px) and (max-width:760px) {
+@media screen and (min-width:350px) and (max-width:760px) {
     header {
         padding: 0 0 5px 0;
     }
     .hamburger-menu {
-        display: flex;
-        top: 13px;
+        top: 3vh;
     }
 
     .nav-links {
