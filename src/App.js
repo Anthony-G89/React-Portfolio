@@ -35,6 +35,9 @@ function App() {
 
 
 
+
+
+
   return (
     <div className="applicationContainer">
       <NavBar
@@ -43,7 +46,7 @@ function App() {
         close={closeSlideNav}
       />
       <Home
-        close={closeSlideNav} 
+        close={closeSlideNav}
         />
       <Modal
         closeModals={closeModal}

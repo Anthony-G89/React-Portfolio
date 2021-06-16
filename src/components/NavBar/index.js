@@ -1,11 +1,16 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import closeBtn from "../../images/closeIcon.png"
+import babyYoda from "../../images/icons8-baby-yoda-144.png";
 import "./style.css";
 
 
 
 function NavBar({ show, slideNav, close, }) {
+
+    function showYoda () {
+        <img src={babyYoda} />
+    }
 
 
     return (
@@ -13,7 +18,7 @@ function NavBar({ show, slideNav, close, }) {
         <div>
             <header>
                 <nav>
-                    <h1 className="logo">A.G.</h1>
+                    <h1 onMouseEnter={babyYoda} className="logo">A.G.</h1>
 
                     <ul className="nav-links"
                         style={{ transform: show ? "translateX(0%)" : null }}>

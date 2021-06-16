@@ -17,11 +17,6 @@ import "./style.css";
 // window.addEventListener("scroll", () => {
 //     const arrowBtn = document.querySelector(".upArrow");
 //     arrowBtn.classList.toggle("active", window.scrollY > 2100);
-// });
-
-
-
-
 
 
 
@@ -36,7 +31,8 @@ function LandingPage({ close }) {
                 <div className="row">
                     <div className="squareBackground"></div>
                     <div className="col-lg-6 pictureAndName">
-                        <img src={pictureOFMe} className=" imgOfMe" alt="Image of me" />
+                        
+                        <img src={pictureOFMe}   className=" imgOfMe" alt="Image of me" />
                         <h3 className="introParagraph">Hello! My name is <br /><span className="name">Anthony Guerrero</span></h3>
                     </div>
                     <div className="col-lg-6 myTitleContainer">

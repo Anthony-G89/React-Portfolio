@@ -58,6 +58,12 @@ section {
     box-shadow: 20px 16px 25px rgba(0,0,0,0.3)
 }
 
+.babyYoda {
+    position: absolute;
+    z-index: 3;
+    background-color: red;
+}
+
 
 
 .pictureAndName {
