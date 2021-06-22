@@ -55,14 +55,45 @@ section {
     min-height: 200px;
     min-width: 250px;
     border-radius: 50%;
-    box-shadow: 20px 16px 25px rgba(0,0,0,0.3)
+    box-shadow: 20px 16px 25px rgba(0,0,0,0.3);
+    position: relative;
 }
 
-.babyYoda {
+.overLay {
     position: absolute;
-    z-index: 3;
-    background-color: red;
+    height: 430px;
+    width: 337px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    opacity: 0;
+    transition: 545ms ease-in-out;
 }
+
+.yoda {
+    position: absolute;
+    top: 50px;
+    left: 68px;
+    height: 190px;
+  
+}
+.groguQuotes {
+    position: relative;
+    top: 16em;
+    max-width: 332px;
+    min-width: 200px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    /* letter-spacing: 1px; */
+}
+
+.overLay:hover {
+    opacity: 1;
+}
+
 
 
 
@@ -181,9 +212,23 @@ section {
     }
 }
 
-@media screen and (max-width:665px) {
+@media screen and (min-width:500px) and (max-width:665px) {
     body {
         overflow-x: hidden;
+    }
+    .overLay {
+        top: 105px;
+        height: 325px;
+        width: 252px;
+    }
+    .yoda {
+        top: 46px;
+        height: 116px;
+    }
+    .groguQuotes {
+        top: 11em;
+        left: 23px;
+        max-width: 200px;
     }
     .imgOfMe {
         height: 325px;
@@ -222,6 +267,11 @@ section {
     }
     .imgOfMe {
         height: auto;
+    }
+    .overLay {
+        top: 116px;
+        height: 345px;
+        width: 249px;
     }
     .myTitle {
         bottom: 187px;
