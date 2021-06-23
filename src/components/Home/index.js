@@ -24,7 +24,7 @@ function LandingPage({ close }) {
 
                         <img src={pictureOFMe} className=" imgOfMe" alt="Image of me" />
                         <div className={"overLay"}>
-                            <img className={"yoda"} src={babyYoda} alt={"Image of baby Yoda"}  />
+                            <img className={"yoda"} src={babyYoda} alt={"Image of baby Yoda"} />
                             <p className={"groguQuotes"}>"He is strong with the force, but talent without training is nothing".</p>
                         </div>
                         <h3 className="introParagraph">Hello! My name is <br /><span className="name">Anthony Guerrero</span></h3>

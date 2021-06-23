@@ -92,6 +92,7 @@ section {
 
 .overLay:hover {
     opacity: 1;
+    box-shadow: 20px 16px 25px rgba(0,0,0,0.1)
 }
 
 
@@ -269,12 +270,10 @@ section {
         height: auto;
     }
     .overLay {
-        top: 116px;
-        height: 345px;
-        width: 249px;
-    }
-    .myTitle {
-        bottom: 187px;
+        top: 231px;
+        height: 463px;
+        width: 335px;
+        left: 183px;
     }
    
 } 
