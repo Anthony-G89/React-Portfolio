@@ -87,7 +87,6 @@ section {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
-    /* letter-spacing: 1px; */
 }
 
 .overLay:hover {
@@ -273,7 +272,10 @@ section {
         top: 231px;
         height: 463px;
         width: 335px;
-        left: 183px;
+        left: 202px;
+    }
+    .groguQuotes {
+        font-size: 17PX;
     }
    
 } 
