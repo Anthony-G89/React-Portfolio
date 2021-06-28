@@ -30,7 +30,7 @@ function Connection({show}) {
                                     <a href="https://www.linkedin.com/in/anthony-guerrero-63a3a8199/" target="_blank" rel="noreferrer" > <img src={LinkedIn} className="socialNetwork-Icon" title="LinkedIn" /> </a>
                                 </li>
                                 <li className="liTagsForConnect">
-                                    <a href="https://github.com/Anthony-G89" target="_blank" rel="noreferrer" ><img src={Github} className="socialNetwork-Icon" title="GitHub" /></a>
+                                    <a href="https://github.com/Anthony-G89" target="_blank" rel="noreferrer" ><img src={Github} className="socialNetwork-Icon" title=" My GitHub account" /></a>
                                 </li>
                             </ul>
 
