@@ -10,12 +10,13 @@ import "./style.css";
 function Modals({ openModal, closeModals, currentProject }) {
 
 
+
+
     return (
         <div>
             {openModal ? <div className="modal-wrapper">
-                <div onClick={closeModals} className="modal-background">
+                <div className="modal-background">
                     <div className="modal-box">
-
                         <div className="modalHeader"><h1>{currentProject.Title}</h1></div>
                         <div className="closeIcon"><span onClick={closeModals} className="closeBtn">&times;</span></div>
 
@@ -35,7 +36,6 @@ function Modals({ openModal, closeModals, currentProject }) {
                                 }
                             </div>
                         </div>
-
                         <div className="modalFooter">
                             <h3 className={"linksTitle"}>Links</h3>
                             <a className={"links"} href={currentProject.GitHubLink} target={"_blank"}>GitHub Repository </a>

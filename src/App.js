@@ -32,12 +32,6 @@ function App() {
   };
 
 
-
-
-
-
-
-
   return (
     <div className="applicationContainer">
       <NavBar
@@ -47,11 +41,12 @@ function App() {
       />
       <Home
         close={closeSlideNav}
-        />
+      />
       <Modal
         closeModals={closeModal}
         openModal={showModal}
         currentProject={currentProject}
+
       />
       <Projects
         close={closeSlideNav}
@@ -59,8 +54,8 @@ function App() {
         projectsItems={ProjectDetail}
       />
       <AboutMe
-        close={closeSlideNav} 
-        />
+        close={closeSlideNav}
+      />
       <Connect
         close={closeSlideNav}
       />

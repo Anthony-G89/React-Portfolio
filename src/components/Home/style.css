@@ -161,6 +161,7 @@ section {
     transition: transform 0.5s ease-in-out;
     background-color: #3d3de8;
     color: white;
+    letter-spacing: 2px;
    
 }
 .workBtn:hover {

@@ -30,7 +30,7 @@ function LandingPage({ close }) {
                         <h3 className="introParagraph">Hello! My name is <br /><span className="name">Anthony Guerrero</span></h3>
                     </div>
                     <div className="col-lg-6 myTitleContainer">
-                        <h2 className="myTitle">I'm a <Typewriter className="workTitle"
+                        <h2 className="myTitle">I am <Typewriter className="workTitle"
                             onInit={(typewriter) => {
                                 typewriter.typeString('Front-End Developer')
                                     .pauseFor(2000)
