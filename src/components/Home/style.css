@@ -42,8 +42,8 @@ section {
     font-weight: bolder;
     position: relative;
     background: #83b9e4; 
-    background: -webkit-linear-gradient(to right, #83b9e4, #3390db);  
-    background: linear-gradient(to right, #83b9e4, #3390db);
+    background: -webkit-linear-gradient(to right, #3d3de8, #0a4ce0);  
+    background: linear-gradient(to right, #3d3de8, #0a4ce0);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline;
@@ -55,7 +55,7 @@ section {
     min-height: 200px;
     min-width: 250px;
     border-radius: 50%;
-    box-shadow: 20px 16px 25px rgba(0,0,0,0.3);
+    box-shadow: 20px 16px 25px rgba(0,0,0,0.2);
     position: relative;
 }
 
@@ -94,9 +94,6 @@ section {
     box-shadow: 20px 16px 25px rgba(0,0,0,0.1)
 }
 
-
-
-
 .pictureAndName {
     position: relative;
     top: 5rem;
@@ -107,7 +104,6 @@ section {
     top: 28px;
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
-    text-shadow: 10px 11px 16px rgba(0,0,0,0.3);
 }
 
 .myTitleContainer {
@@ -118,22 +114,29 @@ section {
     letter-spacing: 1px;
 }
 
+.name {
+    text-shadow: 4px 12px 16px rgba(0,0,0,0.2);
+}
+
+.workTitle {
+    text-shadow: 4px 12px 16px rgba(0,0,0,0.2);
+}
 .myTitle {
     min-width: 350px;
     max-width: 606px;
     font-size: 2.3rem;
-    text-shadow: 4px 12px 16px rgba(0,0,0,0.3);
 }
 
 .workTitle,
 .Typewriter__wrapper {
     background: #499ce0; 
-    background: -webkit-linear-gradient(to right, #499ce0, #1883db);  
-    background: linear-gradient(to right, #499ce0, #1883db);
+    background: -webkit-linear-gradient(to right, #3d3de8, #0a4ce0);  
+    background: linear-gradient(to right, #3d3de8, #0a4ce0);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline;
     font-weight: bolder;
+    text-shadow: 4px 12px 16px rgba(0,0,0,0.2);
 }
 
 .Typewriter__cursor {
@@ -142,28 +145,25 @@ section {
 
 .workBtn {
     display: flex;
-    position: relative;
-    top: 61px;
-    left: 9rem;
-    padding: .3rem 4rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 289px;
+    left: 91px;
+    padding: 7px;
     cursor: pointer;
     font-size: 22px;
     text-transform: uppercase;
     font-family: 'Concert One', cursive;
-    min-width: 35%;
-    border: none;
+    width: 50%;
+    border: 1px solid black;
     border-radius: 5px;
-    filter: drop-shadow(15px 21px 16px rgba(0, 0, 0, 0.3));
     transition: transform 0.5s ease-in-out;
-    background-color: #ffffff;
-    width: fit-content;
-
+    background-color: #3d3de8;
+    color: white;
    
 }
 .workBtn:hover {
-    background: #499ce0; 
-    background: -webkit-linear-gradient(to right, #499ce0, #1883db);  
-    background: linear-gradient(to right, #499ce0, #1883db);
     color: white;
     transform: translateY(4px);
 }
@@ -172,16 +172,33 @@ section {
     position: relative;
     left: 18px;
     transition: transform 0.5s ease;
+    background-color: white;
+    border-radius: 50% ;
 }
 
 .workBtn:hover > .arrowBtn, .arrowBtn:hover {
     transform: rotate(90deg); 
+    color: white;
 }
 
 
 
-
 /* MEDIA QUERIES */
+
+
+@media screen and (max-width:1537px) {
+    .workBtn {
+        left: 140px;
+        
+    }
+} 
+
+@media screen and (max-width:1500px) {
+    .workBtn {
+        width: 60% ;
+        
+    }
+} 
 
 @media screen and (max-width:1034px) {
     .workBtn {

@@ -14,7 +14,7 @@ function NavBar({ show, slideNav, close, }) {
         <div>
             <header>
                 <nav>
-                    <h1 className="logo">A.G.</h1>
+                    {/* <h1 className="logo">A.G.</h1> */}
 
                     <ul className="nav-links"
                         style={{ transform: show ? "translateX(0%)" : null }}>
