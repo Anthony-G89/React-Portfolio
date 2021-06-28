@@ -18,9 +18,9 @@ function NavBar({ show, slideNav, close, }) {
 
                     <ul className="nav-links"
                         style={{ transform: show ? "translateX(0%)" : null }}>
-                        <li onClick={close} className={"nav-item"}><a className={"navBar-Links"} href="#projectSection">Projects</a></li>
-                        <li onClick={close} className={"nav-item"}><a className={"navBar-Links"} href="#aboutMESection">About</a></li>
-                        <li onClick={close} className={"nav-item"}><a className={"navBar-Links"} href="#connectSection">Connect</a></li>
+                        <li onClick={close} className={"nav-item "}><a className={"navBar-Links"} href="#projectSection">Projects</a></li>
+                        <li onClick={close} className={"nav-item "}><a className={"navBar-Links"} href="#aboutMESection">About</a></li>
+                        <li onClick={close} className={"nav-item "}><a className={"navBar-Links"} href="#connectSection">Connect</a></li>
                     </ul>
 
                     <img onClick={() => slideNav(!show)} className={"xBtn"} alt={"close button"} src={closeBtn} style={{ display: !show ? "none" : null }} />

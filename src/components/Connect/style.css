@@ -190,7 +190,7 @@ ul li {
     }
     .connectPicture {
         min-width: 98%;
-        box-shadow: 9px 14px 10px rgba(0, 0, 0, 0.2) ;
+        box-shadow: 4px 13px 10px rgba(0, 0, 0, 0.1) ;
     }
     .socialNetworkContainer {
         display: inline-flex;

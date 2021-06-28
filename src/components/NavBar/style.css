@@ -65,7 +65,7 @@ nav {
 .line {
     width: 100%;
     height: 4px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: white;
 }
 
 .line-2 {
@@ -98,7 +98,6 @@ a:hover {
     text-transform: uppercase;
     color: white;
     letter-spacing: 2px;
-    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
     position: relative;
 }
 
@@ -209,11 +208,11 @@ a:hover {
         right: 0;
         height: 100vh;
         top: 10vh;
-        background: -webkit-linear-gradient(to right, #589dd5, #63b1f0);  
-        background: linear-gradient(to right, #589dd5, #63b1f0);
+        background: -webkit-linear-gradient(to right, #3d3de8, #0a4ce0);  
+        background: linear-gradient(to right, #3d3de8, #0a4ce0);
         z-index: 3;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         flex-direction: column;
         align-items: center;
         width: 50%;
@@ -226,7 +225,7 @@ a:hover {
     .nav-item {
         position: relative;
         bottom: 33px;
-       margin: 45px; 
+       margin: 20px; 
        opacity: 1;
     }
 
