@@ -17,7 +17,7 @@ function projects({ close, open, projectsItems }) {
         <div>
             <span id="projectSection">
                 <section onClick={close} className="projects">
-                    <h1 className="projectTitle">Projects</h1>
+                    <h1 className="projectTitle">Project </h1>
                     <p className="pTag">Check out my work</p>
 
                     <ul className="projectContainer">
