@@ -163,14 +163,14 @@
 @media screen and (min-width:865px) and (max-width:1193px) {
     .modal-box {
         height: 97%;
-        width: 50%;
+        width: 65%;
         padding: 20px;
     }
 }
 
 @media screen and (min-width:701px) and (max-width:864px) {
     .modal-box {
-        width: 55%;
+        width: 70%;
     }
 }
 

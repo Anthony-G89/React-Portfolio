@@ -166,7 +166,6 @@ section {
    
 }
 .workBtn:hover {
-    color: white;
     transform: translateY(4px);
 }
 
@@ -180,7 +179,7 @@ section {
 
 .workBtn:hover > .arrowBtn, .arrowBtn:hover {
     transform: rotate(90deg); 
-    color: white;
+    color: rgb(219, 217, 217);
 }
 
 
