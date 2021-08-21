@@ -1,13 +1,13 @@
 [
-  {
-    "id": 1,
-    "Title": "Movie Search",
-    "picture": "/images/movie-search-app.png",
-    "Description": "Movies search is an easy application to use. Just search for a movie and in return you will get information about that movie such as actors, directors, plot etc.",
-    "modalPicture": "/images/Modal-Pic-MovieSearch (2).jpg",
-    "Languages": ["/images/html5-Icon.png", "/images/CSS3-Icon.png", "/images/JavaScript-Icon.png", "/images/React-Icon.png ", "/images/Bootstrap-Icon.png"  ],
-    "GitHubLink": "https://github.com/Anthony-G89/Movie-Search-App",
-    "LinkToApplication": "https://anthony-g89.github.io/Movie-Search-App/"
+  {  "id": 1,
+    "Title": "CRUD Note Taker",
+    "picture": "/images/CRUD_Note_Taker.png",
+    "Description": "CRUD Note Taker is an application that will let you create, read, update, and delete. The front end was built with React.js and Axios to make the API calls to the back end. The back end was built with Node.js, Express, and Mysql.",
+    "modalPicture": "/images/CRUD_Note_Taker.png",
+    "Languages": ["/images/html5-Icon.png", "/images/CSS3-Icon.png", "/images/JavaScript-Icon.png", "/images/React-Icon.png",  "/images/MySql-Icon.png " , "/images/Bootstrap-Icon.png"],
+    "GitHubLink": "https://github.com/Anthony-G89/CRUD_Note_Taker",
+    "LinkToApplication": "https://mysterious-falls-60584.herokuapp.com/"
+    
   },
   {
     "id": 2,
@@ -31,13 +31,13 @@
   },
   {
     "id": 4,
-    "Title": "Password Generator",
-    "picture": "/images/final-passwordG.png",
-    "Description": "You will be able to generate a password and have the option to choose between lowercase, uppercase, number, and symbol. Character length has to be a min of 8 characters and max of 128 characters.",
-    "modalPicture": "/images/final-passwordG.png",
-    "Languages": ["/images/html5-Icon.png", "/images/CSS3-Icon.png", "/images/JavaScript-Icon.png" , "/images/Bootstrap-Icon.png" ],
-    "GitHubLink": "https://github.com/Anthony-G89/Password-Generator",
-    "LinkToApplication": "https://anthony-g89.github.io/Password-Generator/"
+    "Title": "Movie Search",
+    "picture": "/images/movie-search-app.png",
+    "Description": "Movies search is an easy application to use. Just search for a movie and in return you will get information about that movie such as actors, directors, plot etc.",
+    "modalPicture": "/images/Modal-Pic-MovieSearch (2).jpg",
+    "Languages": ["/images/html5-Icon.png", "/images/CSS3-Icon.png", "/images/JavaScript-Icon.png", "/images/React-Icon.png ", "/images/Bootstrap-Icon.png"  ],
+    "GitHubLink": "https://github.com/Anthony-G89/Movie-Search-App",
+    "LinkToApplication": "https://anthony-g89.github.io/Movie-Search-App/"
   },
   {
     "id": 5,
@@ -68,5 +68,19 @@
     "Languages": ["/images/html5-Icon.png", "/images/CSS3-Icon.png", "/images/JavaScript-Icon.png",  "/images/MySql-Icon.png " , "/images/Bootstrap-Icon.png"],
     "GitHubLink": "https://github.com/Anthony-G89/week-11-note-taker",
     "LinkToApplication": "https://evening-wildwood-16240.herokuapp.com/"
+  },
+
+  {
+
+    "id": 8,
+    "Title": "Password Generator",
+    "picture": "/images/final-passwordG.png",
+    "Description": "You will be able to generate a password and have the option to choose between lowercase, uppercase, number, and symbol. Character length has to be a min of 8 characters and max of 128 characters.",
+    "modalPicture": "/images/final-passwordG.png",
+    "Languages": ["/images/html5-Icon.png", "/images/CSS3-Icon.png", "/images/JavaScript-Icon.png" , "/images/Bootstrap-Icon.png" ],
+    "GitHubLink": "https://github.com/Anthony-G89/Password-Generator",
+    "LinkToApplication": "https://anthony-g89.github.io/Password-Generator/"
   }
+
+  
 ]
