@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.3212e38f.chunk.css",
-    "main.js": "/static/js/main.abb54cbc.chunk.js",
-    "main.js.map": "/static/js/main.abb54cbc.chunk.js.map",
+    "main.css": "/static/css/main.e50a9c79.chunk.css",
+    "main.js": "/static/js/main.dd718f10.chunk.js",
+    "main.js.map": "/static/js/main.dd718f10.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dd11e37f.js",
     "runtime-main.js.map": "/static/js/runtime-main.dd11e37f.js.map",
     "static/js/2.4d6e942e.chunk.js": "/static/js/2.4d6e942e.chunk.js",
     "static/js/2.4d6e942e.chunk.js.map": "/static/js/2.4d6e942e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.3212e38f.chunk.css.map": "/static/css/main.3212e38f.chunk.css.map",
+    "static/css/main.e50a9c79.chunk.css.map": "/static/css/main.e50a9c79.chunk.css.map",
     "static/js/2.4d6e942e.chunk.js.LICENSE.txt": "/static/js/2.4d6e942e.chunk.js.LICENSE.txt",
     "static/media/About-Me-Section-Picture.6db5e158.png": "/static/media/About-Me-Section-Picture.6db5e158.png",
     "static/media/Connect-Section-Media-Pic (1).dc33021c.png": "/static/media/Connect-Section-Media-Pic (1).dc33021c.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.dd11e37f.js",
     "static/js/2.4d6e942e.chunk.js",
-    "static/css/main.3212e38f.chunk.css",
-    "static/js/main.abb54cbc.chunk.js"
+    "static/css/main.e50a9c79.chunk.css",
+    "static/js/main.dd718f10.chunk.js"
   ]
 }
